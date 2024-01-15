@@ -87,9 +87,6 @@
 	</header>
 	<main>
 		<section id="about-me">
-			#about-me {
-  			  background-color: gray;
-			}
 
 			<h1>About Me</h1>
 			<p>I am a mental health counseling Master's student at Hunter College interning and training at the Training Institute for Mental Health.</p>
