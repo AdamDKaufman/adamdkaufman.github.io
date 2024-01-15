@@ -20,6 +20,7 @@
 		<nav>
 			<ul>
 				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#contact-info">Contact Information</a></li>
 				<li><a href="education.html">Education and Experiences</a></li>
 				<li><a href="Adam Kaufman Professional Resume July_10_2023.pdf">Resume</a></li>
 			</ul>
@@ -34,6 +35,10 @@
 		<section id="education">
 			<h1>Education and Experiences</h1>
 			<!-- Add your education and experiences here -->
+		</section>
+		<section id="contact-info">
+			<h1>Contact Information</h1>
+			<p>Email: <a href="mailto:AdamDKaufmanTherapy@Gmail.com">AdamDKaufmanTherapy@Gmail.com</a></p>
 		</section>
 	</main>
 </body>
