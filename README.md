@@ -28,7 +28,7 @@
 		</section>
 		<section id="education">
 			<h1>Education and Experiences</h1>
-			<!-- Add your education and experiences here -->
+			<!-- Hunter College, MSEd; Western Washington University, BS -->
 		</section>
 	</main>
 </body>
