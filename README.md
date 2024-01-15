@@ -2,43 +2,34 @@
 <html>
 <head>
 	<title>My Website</title>
+	<style>
+		/* Style the section with the "About Me" content */
+		#about-me {
+			padding: 50px;
+			background-color: #f2f2f2;
+		}
+	</style>
 </head>
 <body>
 	<header>
 		<nav>
 			<ul>
-				<li><a href="index.html">About Me</a></li>
+				<li><a href="#about-me">About Me</a></li>
 				<li><a href="education.html">Education and Experiences</a></li>
 				<li><a href="resume.html">Resume</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<h1>Welcome to my website!</h1>
-		<p>This is the home page.</p>
-	</main>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Resume</title>
-</head>
-<body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="index.html">About Me</a></li>
-				<li><a href="education.html">Education and Experiences</a></li>
-				<li><a href="resume.html">Resume</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<h1>Resume</h1>
-		<p>Here's a link to my resume:</p>
-		<a href="Adam Kaufman Professional Resume July_10_2023.pdf">Download Resume (PDF)</a>
+		<section id="about-me">
+			<h1>About Me</h1>
+			<p>I am a mental health counseling Master's student at Hunter College interning and training at the Training Institute for Mental Health.</p>
+			<p><a href="resume.html">See Resume</a></p>
+		</section>
+		<section id="education">
+			<h1>Education and Experiences</h1>
+			<!-- Add your education and experiences here -->
+		</section>
 	</main>
 </body>
 </html>
