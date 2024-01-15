@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header>
-		<img src="Professional Photo.jpeg" alt="My Image">
+		<img src="Professional Photo.jpeg" alt="My Image" height="50%" width="50%">
 		<nav>
 			<ul>
 				<li><a href="#about-me">About Me</a></li>
