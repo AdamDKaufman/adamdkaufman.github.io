@@ -2,6 +2,11 @@
 <head>
 	<title>My Website</title>
 	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-family: "Times New Roman", Times, serif;
+		}
 		/* Style the section with the "About Me" content */
 		#about-me {
 			padding: 50px;
