@@ -6,9 +6,9 @@
 	<title>My Website</title>
 	<style>
 		body {
-			background-color: #1a1a1a;
-			color: white;
-			font-family: "Times New Roman", Times, serif;
+			background-color: #f2f2f2;
+			color: #1a1a1a;
+			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
 		}
@@ -45,7 +45,7 @@
 		main {
 			margin-top: 100px;
 			padding: 50px;
-			background-color: #f2f2f2;
+			background-color: #1a1a1a;
 		}
 		section {
 			margin-bottom: 50px;
@@ -53,15 +53,17 @@
 		h1 {
 			font-size: 36px;
 			margin-bottom: 20px;
+			color: #f2f2f2;
 		}
 		p {
 			font-size: 20px;
 			line-height: 1.5;
 			margin-bottom: 20px;
+			color: #f2f2f2;
 		}
 		a {
-			color: #1a1a1a;
-			background-color: white;
+			color: #f2f2f2;
+			background-color: #1a1a1a;
 			padding: 10px 20px;
 			border-radius: 5px;
 			text-decoration: none;
@@ -71,6 +73,7 @@
 		}
 		a:hover {
 			background-color: #f2f2f2;
+			color: #1a1a1a;
 		}
 	</style>
 </head>
@@ -91,15 +94,5 @@
 			<h1>About Me</h1>
 			<p>I am a mental health counseling Master's student at Hunter College interning and training at the Training Institute for Mental Health.</p>
 			<a href="Adam Kaufman Professional Resume July_10_2023.pdf">See Resume</a>
-		</section>
-		<section id="education">
-			<h1>Education and Experiences</h1>
-			<!-- Add your education and experiences here -->
-		</section>
-		<section id="contact-info">
-			<h1>Contact Information</h1>
-			<p>Email: <a href="mailto:AdamDKaufmanTherapy@Gmail.com">AdamDKaufmanTherapy@Gmail.com</a></p>
-		</section>
-	</main>
-</body>
-</html>
+
+	
