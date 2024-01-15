@@ -10,7 +10,7 @@
 		/* Style the section with the "About Me" content */
 		#about-me {
 			padding: 50px;
-			background-color: #f2f2f2;
+			background-color: gray;
 		}
 	</style>
 </head>
