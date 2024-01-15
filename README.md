@@ -75,6 +75,58 @@
 			background-color: #f2f2f2;
 			color: #1a1a1a;
 		}
+		/* Added CSS */
+		header {
+			background-color: #ff0000;
+		}
+		nav a {
+			color: #f2f2f2;
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: bold;
+			transition: all 0.3s ease-in-out;
+			/* Added CSS */
+			filter: brightness(150%);
+		}
+		nav a:hover {
+			color: #1a1a1a;
+			/* Added CSS */
+			background-color: #f2f2f2;
+			filter: brightness(100%);
+		}
+		main {
+			background-color: #ff0000;
+			/* Added CSS */
+			filter: brightness(150%);
+		}
+		h1 {
+			color: #f2f2f2;
+			/* Added CSS */
+			filter: brightness(150%);
+		}
+		p {
+			color: #f2f2f2;
+			/* Added CSS */
+			filter: brightness(150%);
+		}
+		a {
+			color: #f2f2f2;
+			background-color: #1a1a1a;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			font-size: 20px;
+			font-weight: bold;
+			transition: all 0.3s ease-in-out;
+			/* Added CSS */
+			filter: brightness(150%);
+		}
+		a:hover {
+			background-color: #f2f2f2;
+			color: #1a1a1a;
+			/* Added CSS */
+			filter: brightness(100%);
+		}
 	</style>
 </head>
 <body>
@@ -92,7 +144,4 @@
 		<section id="about-me">
 
 			<h1>About Me</h1>
-			<p>I am a mental health counseling Master's student at Hunter College interning and training at the Training Institute for Mental Health.</p>
-			<a href="Adam Kaufman Professional Resume July_10_2023.pdf">See Resume</a>
-
-	
+			<p>I am a mental health counseling
