@@ -12,6 +12,7 @@
 </head>
 <body>
 	<header>
+		<img src="Professional Photo.jpeg" alt="My Image">
 		<nav>
 			<ul>
 				<li><a href="#about-me">About Me</a></li>
@@ -28,7 +29,7 @@
 		</section>
 		<section id="education">
 			<h1>Education and Experiences</h1>
-			<!-- Hunter College, MSEd; Western Washington University, BS -->
+			<!-- Add your education and experiences here -->
 		</section>
 	</main>
 </body>
