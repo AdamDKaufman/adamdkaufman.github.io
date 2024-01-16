@@ -56,11 +56,11 @@
 </head>
 <body>
   <header>
-    <img src="Professional Photo.jpeg" alt="Professional Photo" height=30% width=30%>
+    <img src="Professional Photo.jpeg" alt="Professional Photo" height= 20% width= 20%>
     <h1>Adam Kaufman, MSEd</h1>
   </header>
   <nav>
-    <a href="#about-me">About me</a>
+    <a href="#about-me">About Me</a>
     <a href="#contact-information">Contact Information</a>
     <a href="#education-experiences-and-resume">Education, Experiences, and Resume</a>
   </nav>
