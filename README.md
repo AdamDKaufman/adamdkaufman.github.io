@@ -57,7 +57,7 @@
   <header>
     <img src="Professional Photo.jpeg" alt="Professional Photo" 
       height="auto" 
-      width="100%">
+      width="30%">
     <h1>Adam Kaufman, MSEd</h1>
   </header>
   <nav>
