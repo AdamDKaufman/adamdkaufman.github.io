@@ -1,44 +1,57 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Adam Kaufman's Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-    }
-    .header {
-      background-color: #f1f1f1;
-      padding: 20px;
-      text-align: center;
-    }
-    .header h1 {
-      margin: 0;
-    }
-    .nav {
-      overflow: hidden;
-      background-color: #333;
-    }
-    .nav a {
-      float: left;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    .nav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    .main {
-      padding: 16px;
-    }
-    .footer {
-      background-color: #f1f1f1;
-      padding: 10px;
-      text-align: center;
-    }
-  </style>
+<title>Adam Kaufman's Website</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+<style>
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+}
+
+.main h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+</style>
 </head>
 <body>
 
