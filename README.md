@@ -3,10 +3,10 @@
   <title>Adam Kaufman's Website</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: sans-serif; /* Use a modern, clean font */
       margin: 0;
-      background-color: #fff;
-      color: #333;
+      background-color: #fff; /* Set white background */
+      color: #333; /* Darker text for contrast */
     }
 
     .header {
@@ -16,21 +16,25 @@
 
     .header h1 {
       margin: 0;
+      font-weight: bold;
     }
 
     .nav {
-      background-color: transparent;
-      position: fixed;
-      width: 100%;
+      position: fixed; /* Keep nav at top */
       top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent */
+      transition: background-color 0.3s ease-in-out;
       padding: 10px 20px;
+      z-index: 1; /* Ensure nav stays above content */
     }
 
     .nav a {
       color: #333;
       text-decoration: none;
       font-size: 16px;
-      padding: 10px;
+      padding: 10px 15px;
     }
 
     .nav a:hover {
@@ -38,78 +42,63 @@
     }
 
     .main {
-      padding: 20px;
+      padding: 40px 20px; /* Increased padding for content */
+      margin-top: 80px; /* Account for fixed nav */
     }
 
-    .section {
-      opacity: 0;
-      transform: translateY(40px);
-      transition: all 0.4s ease-in-out;
+    .main > * {
+      opacity: 0; /* Hide content initially */
+      transition: opacity 0.5s ease-in-out;
     }
 
-    .section.active {
-      opacity: 1;
-      transform: translateY(0);
+    .main > *:first-child {
+      opacity: 1; /* Show first content block by default */
+    }
+
+    .main a[name]:target ~ * {
+      opacity: 0; /* Hide previous content blocks when a new one is targeted */
+    }
+
+    .main a[name]:target {
+      opacity: 1; /* Show the targeted content block */
     }
 
     .footer {
-      padding: 10px;
       text-align: center;
+      padding: 10px;
     }
   </style>
 </head>
 <body>
 
-  <div class="header">
-    <img src="Professional Photo.jpeg" alt="Professional Photo" style="width:100%;max-width:300px">
-    <h1>Adam Kaufman, MSEd</h1>
-  </div>
+<div class="header">
+  <img src="Professional Photo.jpeg" alt="Professional Photo" style="width:100%;max-width:300px">
+  <h1>Adam Kaufman, MSEd</h1>
+</div>
 
-  <div class="nav">
-    <a href="#about">About Me</a>
-    <a href="#contact">Contact Information</a>
-    <a href="#resume">Education, Experiences, and Resume</a>
-  </div>
+<div class="nav">
+  <a href="#about">About Me</a>
+  <a href="#contact">Contact Information</a>
+  <a href="#resume">Education, Experiences, and Resume</a>
+</div>
 
-  <div class="main">
-    <div class="section" id="about">
-      <h2>About Me</h2>
-      <p>I am a mental health counseling student at CUNY Hunter College with an interest in psychodynamic psychotherapy. Throughout graduate school, my counseling skills have developed through my eclectic experiences at both my practicum and my internship sites. For my practicum, I was employed at the Renaissance Charter School in Jackson Heights, Queens, where I provided mental health counseling services to students from K-12th grade. Here, I conducted a dialectical behavioral therapy (DBT) group guided by the Child Mind Institute and provided individual 1:1 mental health counseling services. After my practicum ended, I began my internship at the Training Institute for Mental Health, a site where I currently attend weekly didactic and group clinical case seminars while providing mental health counseling services guided by psychoanalytic thought.</p>
-    </div>
+<div class="main">
+  <a name="about"></a>
+  <h2>About Me</h2>
+  <p>[...]</p>
 
-    <div class="section" id="contact">
-      <h2>Contact Information</h2>
-      <p>Email: AdamDKaufmanTherapy@Gmail.com</p>
-    </div>
+  <a name="contact"></a>
+  <h2>Contact Information</h2>
+  <p>[...]</p>
 
-    <div class="section" id="resume">
-      <h2>Education, Experiences, and Resume</h2>
-      <p>See <a href="Adam Kaufman Professional Resume July_10_2023.pdf">Resume.</a></p>
-    </div>
-  </div>
+  <a name="resume"></a>
+  <h2>Education, Experiences, and Resume</h2>
+  <p>[...]</p>
+</div>
 
-  <div class="footer">
-    <p>Adam Kaufman, MSEd</p>
-  </div>
+<div class="footer">
+  <p>Adam Kaufman, MSEd</p>
+</div>
 
-  <script>
-    // JavaScript for smooth scrolling and section reveal
-    const sections = document.querySelectorAll('.section');
-    const navLinks = document.querySelectorAll('.nav a');
-
-    navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        const targetId = link.href.split('#')[1];
-        const targetSection = document.querySelector(`#${targetId}`);
-
-        sections.forEach(section => {
-          section.classList.remove('active');
-        });
-
-        targetSection.classList.add('active');
-
-        window.scrollTo({
-          top: targetSection.offsetTop,
-          behavior: 'smooth'
-        });
-      });
+</body>
+</html>
