@@ -6,8 +6,8 @@
       font-family: Arial, sans-serif;
       margin: 0;
       background-color: white;
-      color: #333; /* Ensure text is readable on white background */
-      overflow-x: hidden; /* Prevent horizontal scroll on small screens */
+      color: #333;
+      overflow-x: hidden;
     }
 
     .header {
@@ -18,17 +18,17 @@
     .header img {
       width: 100%;
       max-width: 300px;
-      border-radius: 50%; /* Add a rounded border to the image */
+      border-radius: 50%;
     }
 
     .nav {
-      position: fixed; /* Keep navigation bar at the top */
+      position: fixed;
       top: 0;
       width: 100%;
       background-color: white;
       padding: 10px 20px;
-      z-index: 100; /* Keep nav above other content */
-      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      z-index: 100;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     .nav a {
@@ -48,8 +48,8 @@
     }
 
     .section {
-      opacity: 0; /* Initially hide sections */
-      transform: translateY(50px); /* Slightly offset sections */
+      opacity: 0;
+      transform: translateY(50px);
       transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     }
 
@@ -60,7 +60,7 @@
 
     .section h2 {
       margin-top: 0;
-      font-weight: 300; /* Use a lighter font weight for headers */
+      font-weight: 300;
     }
 
     .footer {
@@ -85,15 +85,19 @@
 <div class="main">
   <section id="about" class="section active">
     <h2>About Me</h2>
-    </section>
+    <p>I am a mental health counseling student at CUNY Hunter College with an interest in psychodynamic psychotherapy. Throughout graduate school, my counseling skills have developed through my eclectic experiences at both my practicum and internship sites. For my practicum, I was employed at the Renaissance Charter School in Jackson Heights, Queens, where I provided mental health counseling services to students from K-12th grade. Here, I conducted a dialectical behavioral therapy (DBT) group guided by the Child Mind Institute and provided individual 1:1 mental health counseling services. After my practicum ended, I began my internship at the Training Institute for Mental Health, a site where I currently attend weekly didactic and group clinical case seminars while providing mental health counseling services guided by psychoanalytic thought.</p>
+  </section>
 
   <section id="contact" class="section">
     <h2>Contact Information</h2>
-    </section>
+    <p>Email: <a href="mailto:AdamDKaufmanTherapy@Gmail.com">AdamDKaufmanTherapy@Gmail.com</a></p>
+    <p>Phone Number: 360-296-0308</p>
+  </section>
 
   <section id="resume" class="section">
     <h2>Education, Experiences, and Resume</h2>
-    </section>
+    <p><a href="Adam Kaufman Professional Resume July_10_2023.pdf">See Resume</a></p>
+  </section>
 </div>
 
 <div class="footer">
@@ -107,17 +111,4 @@
 
   navLinks.forEach(link => {
     link.addEventListener('click', () => {
-      const targetId = link.getAttribute('href');
-      const targetSection = document.querySelector(targetId);
-
-      sections.forEach(section => {
-        section.classList.remove('active');
-      })
-
-      targetSection.classList.add('active');
-
-      window.scrollTo({
-        top: targetSection.offsetTop,
-        behavior: 'smooth'
-      });
-    
+      const targetId
