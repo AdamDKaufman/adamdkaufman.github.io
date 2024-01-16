@@ -65,7 +65,7 @@
 </div>
 
 <div class="footer">
-  <p>Created by Adam Kaufman</p>
+  <p>Adam Kaufman, MSEd</p>
 </div>
 
 </body>
