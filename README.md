@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <title>Adam Kaufman's Website</title>
@@ -56,7 +55,7 @@
 
 <div class="main">
   <h2 id="about">About Me</h2>
-  <p>I am a mental health counseling student at CUNY Hunter College and have an interest in and education in psychodynamic therapy.</p>
+  <p>I am a mental health counseling student at CUNY Hunter College with an interest in psychodynamic psychotherapy. Throughout graduate school, I've developed my counseling skills through my eclectic experiences in both my practicum and my internship. For my practicum, I was employed at the Renaissance Charter School in Jackson Heights, Queens where I provided mental health counseling services to students from K-12th grade. Throughout this time, I conducted a dialectical behavioral therapy group guided by the Child Mind Institute and provided individual 1:1 mental health counseling services. Afterwards, I began my internship at the Training Institute for Mental Health, a site where I attend weekly didactic and group clinical case seminars while providing mental health counseling services guided by psychoanalytic thought.</p>
 
   <h2 id="contact">Contact Information</h2>
   <p>Email: AdamDKaufmanTherapy@Gmail.com</p>
