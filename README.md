@@ -61,7 +61,7 @@
   <p>Email: AdamDKaufmanTherapy@Gmail.com</p>
 
   <h2 id="resume">Education, Experiences, and Resume</h2>
-  <p>See Resume: <a href="Adam Kaufman Professional Resume July_10_2023.pdf">Adam Kaufman Professional Resume July_10_2023.pdf</a></p>
+  <p>See Resume: <a href="Adam Kaufman Professional Resume July_10_2023.pdf">Resume.pdf</a></p>
 </div>
 
 <div class="footer">
