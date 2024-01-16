@@ -3,69 +3,40 @@
   <title>Adam Kaufman's Website</title>
   <style>
     body {
-      font-family: sans-serif; /* Use a modern, clean font */
+      font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #fff; /* Set white background */
-      color: #333; /* Darker text for contrast */
     }
-
     .header {
+      background-color: #f1f1f1;
       padding: 20px;
       text-align: center;
     }
-
     .header h1 {
       margin: 0;
-      font-weight: bold;
     }
-
     .nav {
-      position: fixed; /* Keep nav at top */
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent */
-      transition: background-color 0.3s ease-in-out;
-      padding: 10px 20px;
-      z-index: 1; /* Ensure nav stays above content */
+      overflow: hidden;
+      background-color: #333;
     }
-
     .nav a {
-      color: #333;
-      text-decoration: none;
-      font-size: 16px;
-      padding: 10px 15px;
-    }
-
-    .nav a:hover {
-      color: #000;
-    }
-
-    .main {
-      padding: 40px 20px; /* Increased padding for content */
-      margin-top: 80px; /* Account for fixed nav */
-    }
-
-    .main > * {
-      opacity: 0; /* Hide content initially */
-      transition: opacity 0.5s ease-in-out;
-    }
-
-    .main > *:first-child {
-      opacity: 1; /* Show first content block by default */
-    }
-
-    .main a[name]:target ~ * {
-      opacity: 0; /* Hide previous content blocks when a new one is targeted */
-    }
-
-    .main a[name]:target {
-      opacity: 1; /* Show the targeted content block */
-    }
-
-    .footer {
+      float: left;
+      color: white;
       text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .main {
+      padding: 16px;
+    }
+    .footer {
+      background-color: #f1f1f1;
       padding: 10px;
+      text-align: center;
     }
   </style>
 </head>
@@ -83,17 +54,15 @@
 </div>
 
 <div class="main">
-  <a name="about"></a>
-  <h2>About Me</h2>
-  <p>[...]</p>
+  <h2 id="about">About Me</h2>
+  <p>I am a mental health counseling student at CUNY Hunter College with an interest in psychodynamic psychotherapy. Throughout graduate school, my counseling skills have developed through my eclectic experiences at both my practicum and my internship sites. For my practicum, I was employed at the Renaissance Charter School in Jackson Heights, Queens, where I provided mental health counseling services to students from K-12th grade. Here, I conducted a dialectical behavioral therapy (DBT) group guided by the Child Mind Institute and provided individual 1:1 mental health counseling services. After my practicum ended, I began my internship at the Training Institute for Mental Health, a site where I currently attend weekly didactic and group clinical case seminars while providing mental health counseling services guided by psychoanalytic thought.</p>
 
-  <a name="contact"></a>
-  <h2>Contact Information</h2>
-  <p>[...]</p>
+  <h2 id="contact">Contact Information</h2>
+  <p>Email: AdamDKaufmanTherapy@Gmail.com</p>
+  <p>Phone Number: 360-296-0308</p>
 
-  <a name="resume"></a>
-  <h2>Education, Experiences, and Resume</h2>
-  <p>[...]</p>
+  <h2 id="resume">Education, Experiences, and Resume</h2>
+  <p>See <a href="Adam Kaufman Professional Resume July_10_2023.pdf">Resume.</a></p>
 </div>
 
 <div class="footer">
