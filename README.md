@@ -62,7 +62,7 @@
   <p>Phone Number: 360-296-0308</p>
 
   <h2 id="resume">Education, Experiences, and Resume</h2>
-  <p>See Resume: <a href="Adam Kaufman Professional Resume July_10_2023.pdf">Resume</a></p>
+  <p>See Resume: <a href="Adam Kaufman Professional Resume July_10_2023.pdf">Resume.</a></p>
 </div>
 
 <div class="footer">
