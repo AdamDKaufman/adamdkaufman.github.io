@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+=  <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -56,7 +56,7 @@
 </head>
 <body>
   <header>
-    <img src="Professional Photo.jpeg" alt="Professional Photo">
+    <img src="Professional Photo.jpeg" alt="Professional Photo" height=30% width=30%>
     <h1>Adam Kaufman, MSEd</h1>
   </header>
   <nav>
