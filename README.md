@@ -48,7 +48,7 @@
 </div>
 
 <div class="nav">
-  <a href="#about">About me</a>
+  <a href="#about">About Me</a>
   <a href="#contact">Contact Information</a>
   <a href="#resume">Education, Experiences, and Resume</a>
 </div>
