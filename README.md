@@ -1,36 +1,73 @@
-# Mental Health Counselor 
+<html>
+<head>
+  <title>Adam Kaufman's Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .header {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    .nav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    .nav a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .main {
+      padding: 16px;
+    }
+    .footer {
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
 
-#### Skills: Crisis Intervention, Applied Behavioral Analysis, SPSS, Research Methods 
+<div class="header">
+  <img src="Professional Photo.jpeg" alt="Professional Photo" style="width:100%;max-width:300px">
+  <h1>Adam Kaufman, MSEd</h1>
+</div>
 
-## Education						       		
-- M.S.Ed., Mental Health Counseling	| CUNY Hunter College (_July 2024_)	 			        		
-- B.S., Psychology | Western Washington University (_June 2021_)
+<div class="nav">
+  <a href="#about">About Me</a>
+  <a href="#contact">Contact Information</a>
+  <a href="#resume">Education, Experiences, and Resume</a>
+</div>
 
-## Work Experience
-**Internship @ TRAINING INSTITUTE FOR MENTAL HEALTH (_September 2023 - Present_)**
-- Provided mental health counseling services guided by psychoanalytic thought and participated in weekly
-didactic and group clinical case seminars.
+<div class="main">
+  <h2 id="about">About Me</h2>
+  <p>I am a mental health counseling student at CUNY Hunter College with an interest in psychodynamic psychotherapy. Throughout graduate school, my counseling skills have developed through my eclectic experiences at both my practicum and my internship sites. For my practicum, I was employed at the Renaissance Charter School in Jackson Heights, Queens, where I provided mental health counseling services to students from K-12th grade. Here, I conducted a dialectical behavioral therapy (DBT) group guided by the Child Mind Institute and provided individual 1:1 mental health counseling services. After my practicum ended, I began my internship at the Training Institute for Mental Health, a site where I currently attend weekly didactic and group clinical case seminars while providing mental health counseling services guided by psychoanalytic thought.</p>
 
-**Practicum @ THE RENAISSANCE CHARTER SCHOOL (_January 2023 - June 2023_)**
-- Provided mental health counseling services to students from grades K-12 and conducted a dialectical
-behavioral therapy group guided by the Child Mind Institute.
+  <h2 id="contact">Contact Information</h2>
+  <p>Email: AdamDKaufmanTherapy@Gmail.com</p>
+  <p>Phone Number: 360-296-0308</p>
 
-**Behavioral Technician @ AUTISM LEARNING PARTNERS (_April 2022 - July 2022_)**
-- Provided ABA therapy to one client 5 days a week in their home. Treatment focused on improving
-functional communication skills and reducing maladaptive behaviors.
+  <h2 id="resume">Education, Experiences, and Resume</h2>
+  <p>See <a href="Adam Kaufman Professional Resume July_10_2023.pdf">Resume.</a></p>
+</div>
 
-**Crisis Counselor @ CRISIS TEXT LINE (_May 2021 - March 2022_)**
-- Provided confidential emotional support to individuals in crisis.
-- Collaborated with other counselors on positive and constructive coping skills in the event of future crises.
-- Identified clients in imminent danger and assisted with supervisors on a proper active rescue operation.
+<div class="footer">
+  <p>Adam Kaufman, MSEd</p>
+</div>
 
-**Research Assistant @ WESTERN WASHINGTON UNIVERSITY (_January 2021 - March 2021_)**
-- Ran experiments assessing the impact of acknowledging male privilege on a one-on-one interaction with
-an identified woman. Identified males took surveys regarding their knowledge on male privilege and then
-were tested on a myriad of factors while conducting a desert island task with an identified female.
-
-**Counseling Groups Volunteer @ WESTERN WASHINGTON UNIVERSITY (_January 2021 - March 2021_)**
-- Facilitated the development of group counseling skills in graduate students of the clinical mental health
-counseling program at Western Washington University.
-
-
+</body>
+</html>
