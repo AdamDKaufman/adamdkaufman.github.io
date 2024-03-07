@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,7 +12,7 @@
       color: #333;
     }
     .header {
-      background-color: #0078D4; /* Windows 11-like blue */
+      background-color: rgba(0, 0, 0, 0.5); /* Translucent black */
       color: #fff;
       text-align: center;
       padding: 40px 0;
@@ -42,14 +41,14 @@
       padding: 40px;
     }
     .section {
-      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.9); /* Translucent white */
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       padding: 20px;
       margin-bottom: 20px;
     }
     .footer {
-      background-color: #0078D4; /* Windows 11-like blue */
+      background-color: rgba(0, 0, 0, 0.5); /* Translucent black */
       color: #fff;
       text-align: center;
       padding: 10px;
@@ -59,7 +58,7 @@
 <body>
 
 <div class="header">
-  <img src="Professional Photo.jpeg" alt="Professional Photo" style="width:100%;max-width:300px">
+  <img src="Professional Photo.jpeg" alt="Professional Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
   <h1>Adam Kaufman, MSEd</h1>
 </div>
 
