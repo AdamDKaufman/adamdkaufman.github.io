@@ -12,10 +12,12 @@
       color: #333;
     }
     .header {
-      background-color: rgba(0, 0, 0, 0.5); /* Translucent black */
-      color: #fff;
+      background-color: rgba(255, 255, 255, 0.9); /* Translucent white */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 40px 0;
+      margin-bottom: 20px;
     }
     .header h1 {
       margin: 0;
@@ -24,6 +26,10 @@
       overflow: hidden;
       background-color: #333;
       text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+      margin-bottom: 20px;
     }
     .nav a {
       display: inline-block;
