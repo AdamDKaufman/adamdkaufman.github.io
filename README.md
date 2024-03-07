@@ -24,6 +24,7 @@
     }
     .nav {
       overflow: hidden;
+      background-color: #333;
       text-align: center;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -32,7 +33,7 @@
     }
     .nav a {
       display: inline-block;
-      color: #333; /* Changed the color */
+      color: white;
       text-align: center;
       padding: 14px 20px;
       text-decoration: none;
@@ -97,4 +98,3 @@
 
 </body>
 </html>
-
