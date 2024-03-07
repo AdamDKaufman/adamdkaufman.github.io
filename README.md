@@ -12,7 +12,8 @@
       color: #333;
     }
     .header {
-      background-color: #fff; /* White background */
+      background-color: rgba(0, 0, 0, 0.5); /* Translucent black */
+      color: #fff;
       text-align: center;
       padding: 40px 0;
     }
@@ -23,7 +24,6 @@
       overflow: hidden;
       background-color: #333;
       text-align: center;
-      border-bottom: 4px solid #0078D4; /* Windows 11-like blue accent */
     }
     .nav a {
       display: inline-block;
@@ -41,57 +41,24 @@
       padding: 40px;
     }
     .section {
-      background-color: rgba(255, 255, 255, 0.9); /* Translucent white background */
-      border: 2px solid #0078D4; /* Windows 11-like blue border */
+      background-color: rgba(255, 255, 255, 0.9); /* Translucent white */
       border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       padding: 20px;
-      margin-bottom: 20px;
-      position: relative;
-    }
-    .section h2 {
-      border-bottom: 2px solid #0078D4; /* Windows 11-like blue accent */
-      padding-bottom: 10px;
       margin-bottom: 20px;
     }
     .footer {
-      background-color: #fff; /* White background */
-      color: #333;
+      background-color: rgba(0, 0, 0, 0.5); /* Translucent black */
+      color: #fff;
       text-align: center;
       padding: 10px;
-      border-top: 4px solid #0078D4; /* Windows 11-like blue accent */
-    }
-    .word-scramble {
-      position: fixed;
-      top: 0;
-      right: 0;
-      background-color: #0078D4; /* Windows 11-like blue accent */
-      color: #fff;
-      padding: 20px;
-      border-radius: 0 0 0 20px;
-      font-size: 14px;
-    }
-    .word-scramble h3 {
-      margin-top: 0;
-    }
-    .word-scramble ul {
-      list-style: none;
-      padding: 0;
-    }
-    .word-scramble li {
-      margin-bottom: 10px;
-    }
-    .word-scramble img {
-      width: 50px;
-      height: auto;
-      margin-right: 10px;
-      vertical-align: middle;
     }
   </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="Professional Photo.jpeg" alt="Professional Photo" style="width:100%;max-width:300px;border-radius: 50%;">
+  <img src="Professional Photo.jpeg" alt="Professional Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
   <h1>Adam Kaufman, MSEd</h1>
 </div>
 
@@ -121,16 +88,6 @@
 
 <div class="footer">
   <p>Adam Kaufman, MSEd</p>
-</div>
-
-<div class="word-scramble">
-  <h3>Psychoanalytic Concepts</h3>
-  <ul>
-    <li><img src="freud.jpg" alt="Freud's books">draunocninsocs</li>
-    <li><img src="oedipus.jpg" alt="Oedipus Complex">pipeduo</li>
-    <li><img src="subconscious.jpg" alt="Subconscious">nuincuscoosbes</li>
-    <li><img src="repression.jpg" alt="Repression">rinesprseo</li>
-  </ul>
 </div>
 
 </body>
