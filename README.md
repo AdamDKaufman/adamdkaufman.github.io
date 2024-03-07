@@ -1,67 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam Kaufman - Resume & Contact</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #007bff; /* Windows-like blue */
-        }
-        h2 {
-            color: #007bff; /* Windows-like blue */
-        }
-        p {
-            line-height: 1.6;
-        }
-        a {
-            color: #007bff; /* Windows-like blue */
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <title>Adam Kaufman's Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .header {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    .nav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    .nav a {
+      float: left;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .main {
+      padding: 16px;
+    }
+    .footer {
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Adam Kaufman</h1>
-            <h2>Resume & Contact Information</h2>
-        </header>
-        <main>
-            <section>
-                <h2>About Me</h2>
-                <p>Welcome to my personal webpage! I'm Adam Kaufman, and I'm excited to share my resume and contact information with you.</p>
-            </section>
-            <section>
-                <h2>Resume</h2>
-                <!-- Add your resume content here -->
-                <p>This section will contain your resume details.</p>
-            </section>
-            <section>
-                <h2>Contact Information</h2>
-                <p>You can reach out to me via email at <a href="mailto:adam@example.com">adam@example.com</a>. Feel free to connect with me on LinkedIn: <a href="https://www.linkedin.com/in/adamkaufman">Adam Kaufman</a>.</p>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2024 Adam Kaufman. All rights reserved.</p>
-        </footer>
-    </div>
+
+<div class="header">
+  <img src="Professional Photo.jpeg" alt="Professional Photo" style="width:100%;max-width:300px">
+  <h1>Adam Kaufman, MSEd</h1>
+</div>
+
+<div class="nav">
+  <a href="#about">About Me</a>
+  <a href="#contact">Contact Information</a>
+  <a href="#resume">Education, Experiences, and Resume</a>
+</div>
+
+<div class="main">
+  <h2 id="about">About Me</h2>
+  <p>I am a mental health counseling student at CUNY Hunter College with an interest in psychodynamic psychotherapy. Throughout graduate school, my counseling skills have developed through my eclectic experiences at both my practicum and my internship sites. For my practicum, I was employed at the Renaissance Charter School in Jackson Heights, Queens, where I provided mental health counseling services to students from K-12th grade. Here, I conducted a dialectical behavioral therapy (DBT) group guided by the Child Mind Institute and provided individual 1:1 mental health counseling services. After my practicum ended, I began my internship at the Training Institute for Mental Health, a site where I currently attend weekly didactic and group clinical case seminars while providing mental health counseling services guided by psychoanalytic thought.</p>
+
+  <h2 id="contact">Contact Information</h2>
+  <p>Email: AdamDKaufmanTherapy@Gmail.com</p>
+  <p>Phone Number: 360-296-0308</p>
+
+  <h2 id="resume">Education, Experiences, and Resume</h2>
+  <p>See <a href="Adam Kaufman Professional Resume July_10_2023.pdf">Resume.</a></p>
+</div>
+
+<div class="footer">
+  <p>Adam Kaufman, MSEd</p>
+</div>
+
 </body>
 </html>
