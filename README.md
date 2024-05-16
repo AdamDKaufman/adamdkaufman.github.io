@@ -88,7 +88,7 @@
 
   <div class="section" id="resume">
     <h2>Education, Experiences, and Resume</h2>
-    <p>See <a href="Adam Kaufman Professional Resume July_10_2023.pdf">Resume.</a></p>
+    <p>See <a href="Adam Kaufman Resume.pdf">Resume.</a></p>
   </div>
 </div>
 
