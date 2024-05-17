@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -77,7 +78,11 @@
 <div class="main">
   <div class="section" id="about">
     <h2>About Me</h2>
-    <p>I am graduate from CUNY Hunter College with a master's degree in mental health counseling and an interest in psychodynamic psychotherapy. Currently, I am a fellowship student at the Training Institute for Mental Health where I am earning a certificate in psychodynamic psychotherapy. Before this, my counseling skills were developed through my eclectic experiences at both my practicum and my internship sites. For my practicum, I was employed by the Renaissance Charter School in Jackson Heights, Queens, where I provided mental health counseling services to students from K-12th grade. Here, I conducted a dialectical behavioral therapy (DBT) group guided by the Child Mind Institute and provided individual 1:1 mental health counseling services. After my practicum ended, I began my internship at the Training Institute for Mental Health, a site where I attended weekly didactic and group clinical case seminars while providing mental health counseling services guided by psychoanalytic thought.</p>
+    <p>I am a graduate from CUNY Hunter College with a master's degree in mental health counseling and an interest in psychodynamic psychotherapy. Currently, I am a fellowship student at the Training Institute for Mental Health where I am earning a certificate in psychodynamic psychotherapy. Before this, my counseling skills were developed through my eclectic experiences at both my practicum and my internship sites. For my practicum, I was employed by the Renaissance Charter School in Jackson Heights, Queens, where I provided mental health counseling services to students from K-12th grade. Here, I conducted a dialectical behavioral therapy (DBT) group guided by the Child Mind Institute and provided individual 1:1 mental health counseling services. After my practicum ended, I began my internship at the Training Institute for Mental Health, a site where I attended weekly didactic and group clinical case seminars while providing mental health counseling services guided by psychoanalytic thought.</p>
+    <h3>Credentials</h3>
+    <p>Include your credentials here.</p>
+    <h3>Services Offered</h3>
+    <p>Include your services offered here.</p>
   </div>
 
   <div class="section" id="contact">
