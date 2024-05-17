@@ -1,63 +1,51 @@
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adam Kaufman's Website</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Georgia, serif;
       margin: 0;
       padding: 0;
-      background-color: #f0f0f0;
+      background-color: #f6f8fa; /* Soft gray */
       color: #333;
     }
+    /* Header Styles */
     .header {
-      background-color: rgba(255, 255, 255, 0.9); /* Translucent white */
+      background-color: #fff;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 40px 0;
       margin-bottom: 20px;
     }
-    .header h1 {
-      margin: 0;
-    }
+    /* Navigation Styles */
     .nav {
       overflow: hidden;
-      background-color: rgba(0, 0, 0, 0.5); /* Translucent black */
+      background-color: #4caf50; /* Green */
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 10px 0;
       margin-bottom: 20px;
     }
-    .nav a {
-      display: inline-block;
-      color: white;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-    .nav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
+    /* Main Content Styles */
     .main {
-      padding: 40px;
+      padding: 20px;
     }
     .section {
-      background-color: rgba(255, 255, 255, 0.9); /* Translucent white */
+      background-color: #fff;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       padding: 20px;
       margin-bottom: 20px;
     }
+    /* Footer Styles */
     .footer {
-      background-color: rgba(0, 0, 0, 0.5); /* Translucent black */
+      background-color: #4caf50; /* Green */
       color: #fff;
       text-align: center;
       padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
     }
   </style>
 </head>
@@ -71,7 +59,7 @@
 <div class="nav">
   <a href="#about">About Me</a>
   <a href="#contact">Contact Information</a>
-  <a href="#resume">Education, Experiences, and Resume</a>
+  <a href="#resume">Education & Experience</a>
 </div>
 
 <div class="main">
@@ -87,7 +75,7 @@
   </div>
 
   <div class="section" id="resume">
-    <h2>Education, Experiences, and Resume</h2>
+    <h2>Education & Experience</h2>
     <p>See <a href="Adam Kaufman Resume.pdf">Resume.</a></p>
   </div>
 </div>
