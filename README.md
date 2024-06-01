@@ -91,11 +91,11 @@
  <div class="section" id="contact">
    <h2>Contact Form</h2>
   <form id="contact-form" method="post" action="adamdkaufmantherapy@gmail.com">
-    <label for="name">Name:</label><br>
+    <label for="name">Your Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
-    <label for="email">Email:</label><br>
+    <label for="email">Your Email:</label><br>
     <input type="email" id="email" name="email" required><br><br>
-    <label for="message">Message:</label><br>
+    <label for="message">Send a Message:</label><br>
     <textarea id="message" name="message" rows="5" required></textarea><br><br>
     <button type="submit">Send Message</button>
   </form>
