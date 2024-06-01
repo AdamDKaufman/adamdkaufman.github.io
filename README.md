@@ -78,7 +78,7 @@
   <div class="section" id="about">
     <h2>About Me</h2>
     <p>I am a graduate from CUNY Hunter College with a master's degree in mental health counseling. My therapeutic work is guided by psychodynamic theories, with an emphasis on how one's unconscious and their past experiences and relationships might inform their current cognitions, behavior, and symptomatology.</p>
-   <p>Certifications: MSEd in mental health counseling; Pursuing a certificate in psychodynamic psychotherapy from the Training Institute of Mental Health (to be completed by 2027).</p>
+   <p>Certifications: MSEd in mental health counseling; Pursuing a certificate in psychodynamic psychotherapy from the Training Institute for Mental Health (to be completed by 2027).</p>
    <p>Services Offered: Individual therapy (in-person or telehealth) for people of all ages who are experiencing stress and/or symptoms of depression, anxiety, grief, and post-traumatic stress disorder.</p>
   </div>
 
