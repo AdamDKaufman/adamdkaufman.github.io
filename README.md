@@ -89,12 +89,21 @@
   </div>
 
  <div class="section" id="contact">
-   <h2>Contact Form</h2>
+  <h2>Contact Form</h2>
+<p>Preferred method of contact: </p>
+<label for="communication_preference">Email or Phone</label>
+<select id="communication_preference" name="communication_preference">
+  <option value="email">Email</option>
+  <option value="phone">Phone</option>
+</select><br><br>
+
 <form id="contact-form" method="post" action="https://formspree.io/f/mleqyjkz">
   <label for="name">Your Name:</label><br>
   <input type="text" id="name" name="name" required><br><br>
   <label for="email">Your Email:</label><br>
   <input type="email" id="email" name="email" required><br><br>
+  <label for="phone">Your Phone Number (Optional):</label><br>
+  <input type="tel" id="phone" name="phone"><br><br>
   <label for="message">Send a Message:</label><br>
   <textarea id="message" name="message" rows="5" required></textarea><br><br>
   <button type="submit">Send Message</button>
