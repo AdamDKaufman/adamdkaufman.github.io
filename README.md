@@ -90,7 +90,7 @@
 
  <div class="section" id="contact">
   <h2>Contact Form</h2>
-<p>Preferred method of contact: </p>
+<p>Preferred Method of Contact: </p>
 <label for="communication_preference">Email or Phone</label>
 <select id="communication_preference" name="communication_preference">
   <option value="email">Email</option>
