@@ -90,7 +90,7 @@
 
  <div class="section" id="contact">
    <h2>Contact Form</h2>
-  <form id="contact-form" method="post" action="your_email@example.com">
+  <form id="contact-form" method="post" action="adamdkaufmantherapy@gmail.com">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
     <label for="email">Email:</label><br>
