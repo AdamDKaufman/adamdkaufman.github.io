@@ -90,6 +90,7 @@
   </div>
 
  <div class="section" id="contactform">
+     <h2>Contact Form</h2>
   <form id="contact-form" method="post" action="https://formspree.io/f/mleqyjkz">
   <p>Preferred Method of Contact: </p>
   <label for="communication_preference">Email or Phone</label>
