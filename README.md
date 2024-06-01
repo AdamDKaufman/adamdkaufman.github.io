@@ -71,6 +71,7 @@
 <div class="nav">
   <a href="#about">About Me</a>
   <a href="#contact">Contact Information</a>
+  <a href="#contactform">Contact Form</a>
   <a href="#resume">Education, Experiences, and Resume</a>
 </div>
 
@@ -88,7 +89,7 @@
     <p>Phone Number: 360-296-0308</p>
   </div>
 
- <div class="section" id="contact">
+ <div class="section" id="contactform">
   <form id="contact-form" method="post" action="https://formspree.io/f/mleqyjkz">
   <p>Preferred Method of Contact: </p>
   <label for="communication_preference">Email or Phone</label>
