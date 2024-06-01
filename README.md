@@ -72,7 +72,6 @@
   <a href="#about">About Me</a>
   <a href="#contact">Contact Information</a>
   <a href="#contactform">Contact Form</a>
-  <a href="#resume">Education, Experiences, and Resume</a>
 </div>
 
 <div class="main">
@@ -110,14 +109,6 @@
   <button type="submit">Send Message</button>
 </form>
    </div>
-
-   
-
-  <div class="section" id="resume">
-    <h2>Education, Experiences, and Resume</h2>
-    <p>See <a href="Adam Kaufman Resume.pdf">Resume.</a></p>
-  </div>
-</div>
 
 <div class="footer">
   <p>Adam Kaufman, MSEd</p>
