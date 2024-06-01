@@ -103,7 +103,7 @@
   <label for="email">Your Email:</label><br>
   <input type="email" id="email" name="email" required><br><br>
   <label for="phone">Your Phone Number:</label><br>
-  <input type="tel" id="phone" name="phone"><br><br>
+  <input type="tel" id="phone" name="phone" required><br><br>
   <label for="message">Send a Message:</label><br>
   <textarea id="message" name="message" rows="5" required></textarea><br><br>
   <button type="submit">Send Message</button>
