@@ -113,5 +113,3 @@
 <div class="footer">
   <p>Adam Kaufman, MSEd</p>
 </div>
-</body>
-</html>
