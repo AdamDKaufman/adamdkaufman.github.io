@@ -64,7 +64,7 @@
 <body>
 
 <div class="header">
-  <img src="Professional Photo.jpeg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
+  <img src="Photo.jpeg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
   <h1>Adam Kaufman, MSEd</h1>
 </div>
 
