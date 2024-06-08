@@ -10,7 +10,7 @@
       margin: 0;
       padding: 0;
       color: #333;
-      background: img src="Manhattan.jpg" alt="Manhattan" no-repeat center center fixed;
+      background: url('Manhattan.jpg') no-repeat center center fixed;
       background-size: cover;
     }
     .header {
