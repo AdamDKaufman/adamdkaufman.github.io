@@ -25,7 +25,7 @@
     }
     .nav {
       overflow: hidden;
-      background-color: rgba(0, 0, 0, .98); /* Translucent black */
+      background-color: rgba(255, 255, 255, .98); /* Translucent white */
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
