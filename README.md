@@ -13,7 +13,7 @@
       background-size: cover;
     }
     .header {
-      background-color: rgba(255, 255, 255, 1); /* Translucent white */
+      background-color: rgba(255, 255, 255, .98); /* Translucent white */
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
@@ -25,7 +25,7 @@
     }
     .nav {
       overflow: hidden;
-      background-color: rgba(0, 0, 0, 1); /* Translucent black */
+      background-color: rgba(0, 0, 0, .98); /* Translucent black */
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
@@ -48,14 +48,14 @@
       padding: 40px;
     }
     .section {
-      background-color: rgba(255, 255, 255, 1); /* Translucent white */
+      background-color: rgba(255, 255, 255, .98); /* Translucent white */
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       padding: 20px;
       margin-bottom: 20px;
     }
     .footer {
-      background-color: rgba(0, 0, 0, 1); /* Translucent black */
+      background-color: rgba(0, 0, 0, .98); /* Translucent black */
       color: #fff;
       text-align: center;
       padding: 10px;
