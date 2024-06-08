@@ -41,7 +41,7 @@
       font-size: 17px;
     }
     .nav a:hover {
-      background-color: #ddd;
+      background-color: #fff;
       color: white;
     }
     .main {
