@@ -4,10 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adam Kaufman's Website</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    html, body {
       margin: 0;
       padding: 0;
+      width: 100%;
+      font-family: Arial, sans-serif;
       color: #333;
       background: url('Manhattan.jpg') no-repeat center center fixed;
       background-size: cover;
@@ -31,6 +32,7 @@
       text-align: center;
       padding: 10px 0;
       margin-bottom: 20px; /* Space between nav and header */
+      box-sizing: border-box;
     }
     .nav a {
       display: inline-block;
@@ -45,7 +47,7 @@
       color: black;
     }
     .main {
-      padding: 40px;
+      padding: 0 40px 40px 40px;
     }
     .section {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
