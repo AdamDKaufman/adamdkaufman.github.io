@@ -18,22 +18,19 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 40px 0;
-      margin-bottom: 20px;
+      margin-bottom: 40px; /* Updated margin to equalize spacing */
     }
     .header h1 {
       margin: 0;
     }
     .nav {
-      position: fixed;
-      top: 0;
-      left: 0;
       width: 100%;
       overflow: hidden;
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 10px 0;
-      z-index: 1000;
+      margin-bottom: 20px; /* Space between nav and header */
     }
     .nav a {
       display: inline-block;
@@ -49,14 +46,13 @@
     }
     .main {
       padding: 40px;
-      padding-top: 80px; /* Adding padding to account for the fixed nav */
     }
     .section {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       padding: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 40px; /* Updated margin to equalize spacing */
     }
     .footer {
       background-color: rgba(0, 0, 0, .99); /* Translucent black */
