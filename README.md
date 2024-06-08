@@ -13,17 +13,6 @@
       background: url('Manhattan.jpg') no-repeat center center fixed;
       background-size: cover;
     }
-    .header {
-      background-color: rgba(255, 255, 255, .99); /* Translucent white */
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      padding: 40px 0;
-      margin-bottom: 40px; /* Updated margin to equalize spacing */
-    }
-    .header h1 {
-      margin: 0;
-    }
     .nav {
       width: 100%;
       overflow: hidden;
@@ -31,7 +20,6 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 10px 0;
-      margin-bottom: 20px; /* Space between nav and header */
       box-sizing: border-box;
     }
     .nav a {
@@ -45,6 +33,17 @@
     .nav a:hover {
       background-color: #ddd;
       color: black;
+    }
+    .header {
+      background-color: rgba(255, 255, 255, .99); /* Translucent white */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 40px 0;
+      margin: 20px 40px 40px 40px; /* Margin: 20px from the nav, 40px from sections */
+    }
+    .header h1 {
+      margin: 0;
     }
     .main {
       padding: 0 40px 40px 40px;
