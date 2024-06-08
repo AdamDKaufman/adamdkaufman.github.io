@@ -77,7 +77,7 @@
 <div class="main">
   <div class="section" id="about">
     <h2>About Me</h2>
-    <p>I am a mental health counselor who is based in New York, New York. My therapeutic work is greatly influenced by psychodynamic theories, with an emphasis on how one's unconscious and their past experiences and relationships might inform their current cognitions, behaviors, and symptomatology. Moreover, I believe the therapeutic relationship to be of utmost importance. Please leave a message below or contact me via phone or email to book your free, 15-minute phone consultation to see if we’re a good fit!.</p>
+    <p>I am a mental health counselor who is based in New York, New York. My therapeutic work is greatly influenced by psychodynamic theories, with an emphasis on how one's unconscious and their past experiences and relationships might inform their current cognitions, behaviors, and symptomatology. Moreover, I believe the therapeutic relationship to be of utmost importance. Please leave a message below or contact me via phone or email to book your free, 15-minute phone consultation to see if we’re a good fit.</p>
    <p>Qualifications/Certifications: MSEd in mental health counseling; Pursuing a certificate in psychodynamic psychotherapy from the Training Institute for Mental Health (to be completed by 2027).</p>
    <p>Services Offered: Individual therapy (in-person or telehealth) for people of all ages who are experiencing stress and/or symptoms of depression, anxiety disorders, grief, and post-traumatic stress disorder.</p>
   </div>
