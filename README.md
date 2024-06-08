@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,11 +9,12 @@
       font-family: 'Source Sans Pro', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #333;
-      color: #fff;
+      color: #333;
+      background: url('manhattan.jpg') no-repeat center center fixed;
+      background-size: cover;
     }
     .header {
-      background-color: #1a1a1a;
+      background-color: rgba(255, 255, 255, 0.9); /* Translucent white */
       padding: 80px 0;
       text-align: center;
       margin-bottom: 40px;
@@ -29,10 +29,12 @@
       font-size: 2.5em;
     }
     .nav {
-      background-color: #444;
+      background-color: rgba(0, 0, 0, 0.5); /* Translucent black */
       text-align: center;
       padding: 20px 0;
       margin-bottom: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .nav a {
       color: #fff;
@@ -42,15 +44,19 @@
       text-transform: uppercase;
     }
     .nav a:hover {
-      background-color: #666;
+      background-color: #ddd;
+      color: black;
     }
     .main {
       padding: 20px;
       max-width: 1000px;
       margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.9); /* Translucent white */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .section {
-      background-color: #1a1a1a;
+      background-color: rgba(255, 255, 255, 0.9); /* Translucent white */
       padding: 30px;
       border-radius: 10px;
       margin-bottom: 40px;
@@ -61,11 +67,13 @@
       margin-top: 0;
     }
     .footer {
-      background-color: #444;
-      color: #bbb;
+      background-color: rgba(0, 0, 0, 0.5); /* Translucent black */
+      color: #fff;
       text-align: center;
       padding: 20px;
       font-size: 0.9em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     form {
       display: grid;
