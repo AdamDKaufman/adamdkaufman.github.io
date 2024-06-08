@@ -25,7 +25,7 @@
     }
     .nav {
       overflow: hidden;
-      background-color: rgba(0, 0, 0, .95); /* Translucent white */
+      background-color: rgba(255, 255, 255, .95); /* Translucent white */
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
@@ -34,7 +34,7 @@
     }
     .nav a {
       display: inline-block;
-      color: white;
+      color: black;
       text-align: center;
       padding: 14px 20px;
       text-decoration: none;
@@ -42,7 +42,7 @@
     }
     .nav a:hover {
       background-color: #ddd;
-      color: black;
+      color: white;
     }
     .main {
       padding: 40px;
