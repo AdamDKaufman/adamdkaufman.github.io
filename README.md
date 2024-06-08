@@ -91,7 +91,7 @@
  <div class="section" id="contactform">
      <h2>Leave a Message</h2>
   <form id="contact-form" method="post" action="https://formspree.io/f/mleqyjkz">
-  <p>Please fill out the form below to schedule a free, 15-minute phone consultation or to book an appointment—I’ll get back to you within one business day!</p>
+  <p>Please fill out the form below to schedule a free, 15-minute phone consultation or to book an appointment. I’ll get back to you within one business day.</p>
   <label for="communication_preference">Preferred Method of Contact:</label>
   <select id="communication_preference" name="communication_preference">
     <option value="email">Email</option>
