@@ -16,6 +16,7 @@
     .nav {
       width: calc(100% - 80px); /* 40px margin on each side */
       margin: 0 40px;
+      border-radius: 10px;
       overflow: hidden;
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
