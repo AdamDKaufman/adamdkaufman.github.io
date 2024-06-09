@@ -57,7 +57,7 @@
       margin-bottom: 40px; /* Updated margin to equalize spacing */
     }
     .footer {
-      background-color: rgba(0, 0, 0, .99); /* Translucent black */
+      background-color: rgba(0, 0, 0, .5); /* Translucent black */
       color: #fff;
       text-align: center;
       padding: 10px;
