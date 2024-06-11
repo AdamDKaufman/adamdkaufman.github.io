@@ -44,6 +44,7 @@
       text-align: center;
       padding: 40px 0;
       margin: 20px 40px 40px 40px; /* Margin: 20px from the nav, 40px from sections */
+      box-sizing: border-box;
     }
     .header img {
       width: 100%;
@@ -56,6 +57,7 @@
     }
     .main {
       padding: 0 40px 40px 40px;
+      box-sizing: border-box;
     }
     .section {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
@@ -72,7 +74,7 @@
     }
 
     @media (max-width: 768px) {
-      .nav, .header, .main {
+      .nav, .header, .main, .section {
         margin: 0 20px;
         padding: 0;
         width: calc(100% - 40px);
@@ -93,7 +95,7 @@
     }
 
     @media (max-width: 480px) {
-      .nav, .header, .main {
+      .nav, .header, .main, .section {
         margin: 0 10px;
         padding: 0;
         width: calc(100% - 20px);
@@ -123,7 +125,9 @@
 </div>
 
 <div class="header">
-  <img src="photo5.jpg" alt="Photo">
+  <div style="padding: 0 40px; box-sizing: border-box;">
+    <img src="photo5.jpg" alt="Photo">
+  </div>
   <h1>Adam Kaufman, MSEd</h1>
 </div>
 
