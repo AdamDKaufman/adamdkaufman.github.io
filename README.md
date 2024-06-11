@@ -14,6 +14,7 @@
       color: #333;
       background: url('Manhattan.jpg') no-repeat center center fixed;
       background-size: cover;
+      scroll-behavior: smooth;
     }
     .nav {
       width: calc(100% - 80px); /* 40px margin on each side */
