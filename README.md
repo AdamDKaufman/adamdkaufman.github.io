@@ -26,6 +26,7 @@
       box-sizing: border-box;
     }
     .nav a {
+      transition: background-color 0.3s, color 0.3s;
       display: inline-block;
       color: black;
       font-weight: bold;
