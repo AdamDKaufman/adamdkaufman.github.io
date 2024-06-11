@@ -45,6 +45,12 @@
       padding: 40px 0;
       margin: 20px 40px 40px 40px; /* Margin: 20px from the nav, 40px from sections */
     }
+    .header img {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
     .header h1 {
       margin: 0;
     }
@@ -69,6 +75,7 @@
       .nav, .header, .main {
         margin: 0 20px;
         padding: 0;
+        width: calc(100% - 40px);
       }
       .nav a {
         padding: 10px;
@@ -89,6 +96,7 @@
       .nav, .header, .main {
         margin: 0 10px;
         padding: 0;
+        width: calc(100% - 20px);
       }
       .nav a {
         padding: 8px;
@@ -115,7 +123,7 @@
 </div>
 
 <div class="header">
-  <img src="photo5.jpg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
+  <img src="photo5.jpg" alt="Photo">
   <h1>Adam Kaufman, MSEd</h1>
 </div>
 
