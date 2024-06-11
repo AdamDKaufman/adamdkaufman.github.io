@@ -9,6 +9,7 @@
       padding: 0;
       width: 100%;
       font-family: Arial, sans-serif;
+      line-height: 1.6
       color: #333;
       background: url('Manhattan.jpg') no-repeat center center fixed;
       background-size: cover;
