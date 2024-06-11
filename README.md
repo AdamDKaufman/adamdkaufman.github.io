@@ -44,20 +44,12 @@
       text-align: center;
       padding: 40px 0;
       margin: 20px 40px 40px 40px; /* Margin: 20px from the nav, 40px from sections */
-      box-sizing: border-box;
-    }
-    .header img {
-      width: 100%;
-      max-width: 300px;
-      margin-bottom: 20px;
-      border-radius: 10px;
     }
     .header h1 {
       margin: 0;
     }
     .main {
       padding: 0 40px 40px 40px;
-      box-sizing: border-box;
     }
     .section {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
@@ -72,48 +64,6 @@
       text-align: center;
       padding: 10px;
     }
-
-    @media (max-width: 768px) {
-      .nav, .header, .main, .section {
-        margin: 0 20px;
-        padding: 0;
-        width: calc(100% - 40px);
-      }
-      .nav a {
-        padding: 10px;
-        font-size: 15px;
-      }
-      .header, .section {
-        margin: 20px 0;
-      }
-      .main {
-        padding: 0 20px 20px 20px;
-      }
-      .header h1 {
-        font-size: 24px;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .nav, .header, .main, .section {
-        margin: 0 10px;
-        padding: 0;
-        width: calc(100% - 20px);
-      }
-      .nav a {
-        padding: 8px;
-        font-size: 14px;
-      }
-      .header, .section {
-        margin: 10px 0;
-      }
-      .main {
-        padding: 0 10px 10px 10px;
-      }
-      .header h1 {
-        font-size: 20px;
-      }
-    }
   </style>
 </head>
 <body>
@@ -125,9 +75,7 @@
 </div>
 
 <div class="header">
-  <div style="padding: 0 40px; box-sizing: border-box;">
-    <img src="photo5.jpg" alt="Photo">
-  </div>
+  <img src="photo5.jpg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
   <h1>Adam Kaufman, MSEd</h1>
 </div>
 
