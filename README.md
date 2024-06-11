@@ -64,6 +64,46 @@
       text-align: center;
       padding: 10px;
     }
+
+    @media (max-width: 768px) {
+      .nav, .header, .main {
+        margin: 0 20px;
+        padding: 0;
+      }
+      .nav a {
+        padding: 10px;
+        font-size: 15px;
+      }
+      .header, .section {
+        margin: 20px 0;
+      }
+      .main {
+        padding: 0 20px 20px 20px;
+      }
+      .header h1 {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .nav, .header, .main {
+        margin: 0 10px;
+        padding: 0;
+      }
+      .nav a {
+        padding: 8px;
+        font-size: 14px;
+      }
+      .header, .section {
+        margin: 10px 0;
+      }
+      .main {
+        padding: 0 10px 10px 10px;
+      }
+      .header h1 {
+        font-size: 20px;
+      }
+    }
   </style>
 </head>
 <body>
