@@ -87,9 +87,6 @@
       .header h1 {
         font-size: 24px; /* Smaller font size for the header */
       }
-      .nav, .header, .main, .section, .footer {
-        border-radius: 0; /* Remove border radius for a more uniform look on mobile */
-      }
       .header img {
         max-width: 80%; /* Adjust image size for smaller screens */
         margin-bottom: 15px; /* Reduce bottom margin for smaller screens */
