@@ -16,29 +16,44 @@
       background-size: cover;
       scroll-behavior: smooth;
     }
-    .nav {
-      width: calc(100% - 80px); /* 40px margin on each side */
-      margin: 0 40px;
-      border-radius: 10px;
-      overflow: hidden;
-      background-color: rgba(255, 255, 255, .99); /* Translucent white */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      text-align: center;
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.8); /* Translucent white */
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a small shadow for better visibility */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       padding: 10px 0;
-      box-sizing: border-box;
+      z-index: 1000; /* Ensures the navbar is above other content */
     }
-    .nav a {
-      display: inline-block;
+    .navbar-header {
+      color: rgb(56, 182, 255); /* RGB value for the header text */
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px; /* Adjust spacing as needed */
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.99); /* Translucent white */
+      padding: 10px 0;
+      border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
+    }
+    .nav-buttons a {
+      text-decoration: none;
       color: black;
       font-weight: bold;
       text-align: center;
       padding: 14px 20px;
-      text-decoration: none;
       font-size: 17px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
     }
-    .nav a:hover {
+    .nav-buttons a:hover {
       background-color: #ddd;
-      color: black;
     }
     .header {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
@@ -53,6 +68,7 @@
     }
     .main {
       padding: 0 40px 40px 40px;
+      padding-top: 150px; /* Ensure the content starts below the navbar */
     }
     .section {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
@@ -75,11 +91,7 @@
       padding: 10px;
     }
     @media (max-width: 768px) {
-      .nav {
-        width: calc(100% - 40px); /* Reduced margin for smaller screens */
-        margin: 0 20px;
-      }
-      .nav a {
+      .nav-buttons a {
         padding: 10px;
         font-size: 15px;
       }
@@ -109,11 +121,14 @@
 </head>
 <body>
 
-<div class="nav">
-  <a href="#about">About Me</a>
-  <a href="#contact">Contact Information</a>
-  <a href="#contactform">Leave a Message</a>
-</div>
+<header class="navbar">
+  <div class="navbar-header">Affordable and Quality Psychotherapy</div>
+  <nav class="nav-buttons">
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact Information</a>
+    <a href="#contactform">Leave a Message</a>
+  </nav>
+</header>
 
 <div class="header">
   <img src="photo5.jpg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
