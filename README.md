@@ -125,7 +125,7 @@
   <div class="section" id="about">
     <h2>About Me</h2>
     <p>As a passionate mental health counselor with a limited permit to practice psychotherapy in New York, I am committed to supporting your journey toward well-being. My therapeutic approach is deeply rooted in psychodynamic theories, helping you uncover how your past experiences and relationships influence your present thoughts, behaviors, and emotions. With extensive experience in addressing a variety of mental health challenges—such as depression, anxiety, stress, trauma, and relationship issues—I am here to provide a safe and understanding environment for you to explore and overcome your difficulties. Let’s work together to create a path towards a healthier and more fulfilling life. Please leave a message below or contact me via phone or email to book your free 15-minute phone consultation to see if we’re a good fit.</p>
-    <p>Qualifications/Certifications: MSEd in mental health counseling; Pursuing a certificate in psychodynamic psychotherapy from the Training Institute for Mental Health (to be completed by 2027).</p>
+    <p>Certifications: Pursuing a certificate in psychodynamic psychotherapy from the Training Institute for Mental Health (to be completed by 2027).</p>
     <p>Services Offered: Individual therapy (in-person or telehealth) for people of all ages who are experiencing stress and/or symptoms of depression, anxiety disorders, grief, and post-traumatic stress disorder.</p>
   </div>
 
