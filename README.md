@@ -64,6 +64,40 @@
       text-align: center;
       padding: 10px;
     }
+    @media (max-width: 768px) {
+      .nav {
+        width: calc(100% - 40px); /* Reduced margin for smaller screens */
+        margin: 0 20px;
+      }
+      .nav a {
+        padding: 10px;
+        font-size: 15px;
+      }
+      .header {
+        padding: 20px 0;
+        margin: 20px 20px 30px 20px; /* Adjusted margin for smaller screens */
+      }
+      .main {
+        padding: 0 20px 30px 20px;
+      }
+      .section {
+        padding: 15px;
+        margin-bottom: 30px; /* Reduced margin for smaller screens */
+      }
+      .header h1 {
+        font-size: 24px; /* Smaller font size for the header */
+      }
+      .nav, .header, .main, .section, .footer {
+        border-radius: 0; /* Remove border radius for a more uniform look on mobile */
+      }
+      .header img {
+        max-width: 80%; /* Adjust image size for smaller screens */
+        margin-bottom: 15px; /* Reduce bottom margin for smaller screens */
+      }
+      .footer {
+        padding: 10px 20px; /* Adjust footer padding for smaller screens */
+      }
+    }
   </style>
 </head>
 <body>
@@ -118,3 +152,4 @@
   <div class="footer">
     <p>Adam Kaufman, MSEd</p>
   </div>
+</div>
