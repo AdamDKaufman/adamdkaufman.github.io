@@ -118,6 +118,7 @@
 <div class="header">
   <img src="photo5.jpg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
   <h1>Adam Kaufman, MSEd</h1>
+  <p style="font-size: 20px; margin-top: 10px; color: rgb(56, 182, 255);">Affordable and Quality Psychotherapy</p>
 </div>
 
 <div class="main">
