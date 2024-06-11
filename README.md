@@ -3,14 +3,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adam Kaufman's Website</title>
- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   <style>
     html, body {
       margin: 0;
       padding: 0;
       width: 100%;
       font-family: 'Roboto', sans-serif;
-      line-height: 1.6
+      line-height: 1.6;
       color: #333;
       background: url('Manhattan.jpg') no-repeat center center fixed;
       background-size: cover;
@@ -60,6 +60,13 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       padding: 20px;
       margin-bottom: 40px; /* Updated margin to equalize spacing */
+      opacity: 0.5; /* Initial opacity to be semi-visible */
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .section.visible {
+      opacity: 1;
+      transform: translateY(0);
     }
     .footer {
       background-color: rgba(0, 0, 0, .75); /* Translucent black */
@@ -152,3 +159,22 @@
   <div class="footer">
     <p>Adam Kaufman, MSEd</p>
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sections = document.querySelectorAll('.section');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+    });
+  </script>
