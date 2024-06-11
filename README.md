@@ -138,13 +138,13 @@
       </select><br><br>
 
       <label for="name">Your Name:</label><br>
-      <input type="text" id="name" name="name" required><br><br>
+      <input type="text" id="name" name="name" required placeholder="Jane Doe"><br><br>
       <label for="email">Your Email:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
+      <input type="email" id="email" name="email" required placeholder="JaneDoe@Gmail.com"><br><br>
       <label for="phone">Your Phone Number:</label><br>
-      <input type="tel" id="phone" name="phone" required><br><br>
+      <input type="tel" id="phone" name="phone" required placeholder="123-456-7890"><br><br>
       <label for="message">Send a Message:</label><br>
-      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+      <textarea id="message" name="message" rows="5" required placeholder="Your Message Here"></textarea><br><br>
       <button type="submit">Send Message</button>
     </form>
   </div>
