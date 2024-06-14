@@ -23,10 +23,10 @@
       text-align: center;
       padding: 10px 0;
       box-sizing: border-box;
-      position: absolute; /* Change from fixed to absolute */
+      position: absolute;
       top: 0;
       left: 0;
-      z-index: 1000; /* Ensure it's above other content */
+      z-index: 1000;
     }
     .nav a {
       display: inline-block;
@@ -47,7 +47,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 40px 0;
-      margin: 20px 40px 40px 40px; /* Margin: 20px from the nav, 40px from sections */
+      margin: 80px 40px 40px 40px; /* Margin: 80px from the nav, 40px from sections */
     }
     .header h1 {
       margin: 0;
@@ -74,6 +74,7 @@
       color: #fff;
       text-align: center;
       padding: 10px;
+      margin-top: 40px; /* Ensure space between last section and footer */
     }
     @media (max-width: 768px) {
       .nav {
@@ -86,7 +87,7 @@
       }
       .header {
         padding: 20px 0;
-        margin: 20px 20px 30px 20px; /* Adjusted margin for smaller screens */
+        margin: 80px 20px 30px 20px; /* Adjusted margin for smaller screens */
       }
       .main {
         padding: 0 20px 30px 20px;
