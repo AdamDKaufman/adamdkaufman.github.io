@@ -201,54 +201,54 @@
 
       <label for="name">Your Name:</label><br>
       <input type="text" id="name" name="name" required placeholder="Jane Doe"><br><br>
-      <label for="email">Your Email">Your Email:</label><br>
+      <label for="email">Your Email:</label><br>
       <input type="email" id="email" name="email" required placeholder="JaneDoe@Gmail.com"><br><br>
       <label for="phone">Your Phone Number:</label><br>
       <input type="tel" id="phone" name="phone" required placeholder="123-456-7890"><br><br>
       <label for="message">Send a Message:</label><br>
       <textarea id="message" name="message" rows="5" required placeholder="Your Message Here"></textarea><br><br>
       <button type="submit">Send Message</button>
-    </form>
-  </div>
+      </form>
+    </div>
 
-  <div class="footer">
-    <p>Adam Kaufman, MSEd</p>
-  </div>
+    <div class="footer">
+      <p>Adam Kaufman, MSEd</p>
+    </div>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const sections = document.querySelectorAll('.section');
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          }
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const sections = document.querySelectorAll('.section');
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+            }
+          });
+        }, {
+          threshold: 0.1
         });
-      }, {
-        threshold: 0.1
-      });
 
-      sections.forEach(section => {
-        observer.observe(section);
-      });
+        sections.forEach(section => {
+          observer.observe(section);
+        });
 
-      // Ripple effect for nav links
-      const navLinks = document.querySelectorAll('.nav a');
+        // Ripple effect for nav links
+        const navLinks = document.querySelectorAll('.nav a');
 
-      navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-          const ripple = document.createElement('span');
-          ripple.classList.add('ripple');
-          this.appendChild(ripple);
+        navLinks.forEach(link => {
+          link.addEventListener('click', function(e) {
+            const ripple = document.createElement('span');
+            ripple.classList.add('ripple');
+            this.appendChild(ripple);
 
-          const rect = this.getBoundingClientRect();
-          ripple.style.left = `${e.clientX - rect.left}px`;
-          ripple.style.top = `${e.clientY - rect.top}px`;
+            const rect = this.getBoundingClientRect();
+            ripple.style.left = `${e.clientX - rect.left}px`;
+            ripple.style.top = `${e.clientY - rect.top}px`;
 
-          ripple.addEventListener('animationend', () => {
-            ripple.remove();
+            ripple.addEventListener('animationend', () => {
+              ripple.remove();
+            });
           });
         });
       });
-    });
-  </script>
+    </script>
