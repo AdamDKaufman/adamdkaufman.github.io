@@ -23,7 +23,7 @@
       text-align: center;
       padding: 10px 0;
       box-sizing: border-box;
-      position: fixed;
+      position: absolute; /* Change from fixed to absolute */
       top: 0;
       left: 0;
       z-index: 1000; /* Ensure it's above other content */
