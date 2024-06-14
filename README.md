@@ -78,7 +78,7 @@
     }
     @media (max-width: 768px) {
       .nav {
-        width: 100; /* Reduced margin for smaller screens */
+        width: 100; 
         margin: 0; 
       }
       .nav a {
