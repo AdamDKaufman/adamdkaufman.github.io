@@ -16,6 +16,38 @@
       background-size: cover;
       scroll-behavior: smooth;
     }
+    .top-section {
+      width: 100%;
+      height: 66.67vh; /* 2/3 of the screen height */
+      background-color: rgba(0, 0, 0, .75); /* Translucent black */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: rgb(56, 182, 255); /* Text color */
+      position: relative;
+    }
+    .top-section h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .learn-more {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+      color: #f0f0f0; /* Off-white color */
+    }
+    .learn-more a {
+      color: #f0f0f0; /* Off-white color */
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .learn-more a:hover {
+      color: rgb(56, 182, 255); /* Hover color */
+    }
     .nav {
       width: 100%; /* Full width */
       background-color: rgba(0, 0, 0, .75); /* Translucent black */
@@ -23,6 +55,9 @@
       text-align: center;
       padding: 10px 0;
       box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      left: 0;
     }
     .nav a {
       display: inline-block;
@@ -54,11 +89,6 @@
       width: 200px;
       height: 200px;
       transition: width 0s ease, height 0s ease;
-    }
-    .top-section {
-      width: 100%;
-      height: 66.67vh; /* 2/3 of the screen height */
-      background-color: rgba(0, 0, 0, .75); /* Translucent black */
     }
     .header {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
@@ -131,7 +161,12 @@
   <a href="#contactform">Leave a Message</a>
 </div>
 
-<div class="top-section"></div>
+<div class="top-section">
+  <h1>Affordable and Quality Psychotherapy</h1>
+  <div class="learn-more">
+    <a href="#about">Learn more</a>
+  </div>
+</div>
 
 <div class="header">
   <img src="photo5.jpg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
@@ -168,6 +203,7 @@
       <label for="email">Your Email:</label><br>
       <input type="email" id="email" name="email" required placeholder="JaneDoe@Gmail.com"><br><br>
       <label for="phone">Your Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone
       <input type="tel" id="phone" name="phone" required placeholder="123-456-7890"><br><br>
       <label for="message">Send a Message:</label><br>
       <textarea id="message" name="message" rows="5" required placeholder="Your Message Here"></textarea><br><br>
@@ -196,7 +232,9 @@
         observer.observe(section);
       });
 
+      // Ripple effect for nav links
       const navLinks = document.querySelectorAll('.nav a');
+
       navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
           const ripple = document.createElement('span');
