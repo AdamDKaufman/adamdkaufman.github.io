@@ -78,11 +78,15 @@
     }
     @media (max-width: 768px) {
       .nav {
-        width: calc(100% - 40px); /* Reduced margin for smaller screens */
-        margin: 0 20px;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.75); /* Translucent black */
+        color: #f0f0f0;
       }
       .nav a {
-        padding: 10px;
+        display: block;
+        padding: 15px 0;
         font-size: 15px;
       }
       .header {
