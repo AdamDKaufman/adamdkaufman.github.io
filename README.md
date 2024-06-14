@@ -28,10 +28,6 @@
       text-align: center;
       padding: 10px 0;
       box-sizing: border-box;
-      position: fixed; /* Fixed at the top */
-      top: 0;
-      left: 0;
-      z-index: 1000;
     }
     .nav a {
       display: inline-block;
@@ -70,7 +66,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 40px 0;
-      margin: 100px 40px 40px 40px; /* Adjusted margin to account for fixed nav */
+      margin: 40px 40px 40px 40px; /* Margin adjusted */
     }
     .header h1 {
       margin: 0;
@@ -108,7 +104,7 @@
       }
       .header {
         padding: 20px 0;
-        margin: 120px 20px 30px 20px; /* Adjusted margin for smaller screens */
+        margin: 20px 20px 30px 20px; /* Adjusted margin for smaller screens */
       }
       .main {
         padding: 0 20px 30px 20px;
