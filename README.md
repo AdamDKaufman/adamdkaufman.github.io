@@ -16,80 +16,30 @@
       background-size: cover;
       scroll-behavior: smooth;
     }
-    .top-section {
-      width: 100%;
-      height: calc(100vh - 60px); /* 100% viewport height minus nav height */
-      background-color: rgba(0, 0, 0, .75); /* Translucent black */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      color: rgb(56, 182, 255); /* Text color */
-      margin-top: 60px; /* Height of nav */
-      position: relative;
-      z-index: 1; /* Ensure top-section is above nav */
-    }
-    .top-section h1 {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-    .learn-more {
-      position: absolute;
-      bottom: 20px;
-      width: 100%;
-      text-align: center;
-      color: #f0f0f0; /* Off-white color */
-    }
-    .learn-more a {
-      color: #f0f0f0; /* Off-white color */
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-    .learn-more a:hover {
-      color: rgb(56, 182, 255); /* Hover color */
-    }
     .nav {
-      width: 100%; /* Full width */
-      background-color: rgba(0, 0, 0, .75); /* Translucent black */
-      overflow: hidden;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.75); /* Translucent black */
+      color: #f0f0f0;
       text-align: center;
       padding: 10px 0;
       box-sizing: border-box;
-      position: static; /* Static positioning */
-      z-index: 2; /* Ensure nav is above other content */
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000; /* Ensure it's above other content */
     }
     .nav a {
       display: inline-block;
-      color: #f0f0f0; /* Off-white color */
+      color: inherit;
       font-weight: bold;
       text-align: center;
       padding: 14px 20px;
       text-decoration: none;
       font-size: 17px;
-      position: relative;
-      overflow: hidden;
+      transition: color 0.3s ease;
     }
     .nav a:hover {
-      color: rgb(56, 182, 255); /* Hover color */
-    }
-    .nav a::after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 0;
-      height: 0;
-      background: rgba(56, 182, 255, 0.3);
-      border-radius: 50%;
-      transform: translate(-50%, -50%);
-      transition: width 0.6s ease, height 0.6s ease;
-    }
-    .nav a:active::after {
-      width: 200px;
-      height: 200px;
-      transition: width 0s ease, height 0s ease;
+      color: rgb(56, 182, 255);
     }
     .header {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
@@ -97,7 +47,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 40px 0;
-      margin: 40px; /* Adjusted margin */
+      margin: 20px 40px 40px 40px; /* Margin: 20px from the nav, 40px from sections */
     }
     .header h1 {
       margin: 0;
@@ -126,13 +76,17 @@
       padding: 10px;
     }
     @media (max-width: 768px) {
+      .nav {
+        width: calc(100% - 40px); /* Reduced margin for smaller screens */
+        margin: 0 20px;
+      }
       .nav a {
         padding: 10px;
         font-size: 15px;
       }
       .header {
         padding: 20px 0;
-        margin: 20px; /* Adjusted margin for smaller screens */
+        margin: 20px 20px 30px 20px; /* Adjusted margin for smaller screens */
       }
       .main {
         padding: 0 20px 30px 20px;
@@ -160,13 +114,6 @@
   <a href="#about">About Me</a>
   <a href="#contact">Contact Information</a>
   <a href="#contactform">Leave a Message</a>
-</div>
-
-<div class="top-section">
-  <h1>Affordable and Quality Psychotherapy</h1>
-  <div class="learn-more">
-    <a href="#about">Learn more</a>
-  </div>
 </div>
 
 <div class="header">
@@ -208,47 +155,28 @@
       <label for="message">Send a Message:</label><br>
       <textarea id="message" name="message" rows="5" required placeholder="Your Message Here"></textarea><br><br>
       <button type="submit">Send Message</button>
-      </form>
-    </div>
+    </form>
+  </div>
 
-    <div class="footer">
-      <p>Adam Kaufman, MSEd</p>
-    </div>
+  <div class="footer">
+    <p>Adam Kaufman, MSEd</p>
+  </div>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        const sections = document.querySelectorAll('.section');
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-            }
-          });
-        }, {
-          threshold: 0.1
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sections = document.querySelectorAll('.section');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
         });
-
-        sections.forEach(section => {
-          observer.observe(section);
-        });
-
-        // Ripple effect for nav links
-        const navLinks = document.querySelectorAll('.nav a');
-
-        navLinks.forEach(link => {
-          link.addEventListener('click', function(e) {
-            const ripple = document.createElement('span');
-            ripple.classList.add('ripple');
-            this.appendChild(ripple);
-
-            const rect = this.getBoundingClientRect();
-            ripple.style.left = `${e.clientX - rect.left}px`;
-            ripple.style.top = `${e.clientY - rect.top}px`;
-
-            ripple.addEventListener('animationend', () => {
-              ripple.remove();
-            });
-          });
-        });
+      }, {
+        threshold: 0.1
       });
-    </script>
+
+      sections.forEach(section => {
+        observer.observe(section);
+      });
+    });
+  </script>
