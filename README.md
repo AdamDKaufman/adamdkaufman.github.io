@@ -26,6 +26,7 @@
       align-items: center;
       text-align: center;
       color: rgb(56, 182, 255); /* Text color */
+      margin-top: 60px; /* Adjusted margin to prevent overlap with nav */
       position: relative;
     }
     .top-section h1 {
@@ -55,9 +56,10 @@
       text-align: center;
       padding: 10px 0;
       box-sizing: border-box;
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
+      z-index: 1000; /* Ensure nav is above other content */
     }
     .nav a {
       display: inline-block;
@@ -96,7 +98,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 40px 0;
-      margin: 40px 40px 40px 40px; /* Margin adjusted */
+      margin: 40px; /* Adjusted margin */
     }
     .header h1 {
       margin: 0;
@@ -131,7 +133,7 @@
       }
       .header {
         padding: 20px 0;
-        margin: 20px 20px 30px 20px; /* Adjusted margin for smaller screens */
+        margin: 20px; /* Adjusted margin for smaller screens */
       }
       .main {
         padding: 0 20px 30px 20px;
@@ -201,9 +203,9 @@
       <label for="name">Your Name:</label><br>
       <input type="text" id="name" name="name" required placeholder="Jane Doe"><br><br>
       <label for="email">Your Email:</label><br>
-      <input type="email" id="email" name="email" required placeholder="JaneDoe@Gmail.com"><br><br>
+      <input type="email" id="email" name="
+      email" required placeholder="JaneDoe@Gmail.com"><br><br>
       <label for="phone">Your Phone Number:</label><br>
-      <input type="tel" id="phone" name="phone
       <input type="tel" id="phone" name="phone" required placeholder="123-456-7890"><br><br>
       <label for="message">Send a Message:</label><br>
       <textarea id="message" name="message" rows="5" required placeholder="Your Message Here"></textarea><br><br>
