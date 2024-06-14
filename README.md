@@ -78,8 +78,8 @@
     }
     @media (max-width: 768px) {
       .nav {
-        width: calc(100% - 40px); /* Reduced margin for smaller screens */
-        margin: 0 20px;
+        width: 100; /* Reduced margin for smaller screens */
+        margin: 0; 
       }
       .nav a {
         padding: 10px;
