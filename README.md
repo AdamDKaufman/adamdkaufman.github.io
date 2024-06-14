@@ -22,28 +22,47 @@
       background-color: rgba(0, 0, 0, .75); /* Translucent black */
     }
     .nav {
-      width: calc(100% - 80px); /* 40px margin on each side */
-      margin: 0 40px;
-      border-radius: 10px;
+      width: 100%; /* Full width */
+      background-color: rgba(0, 0, 0, .75); /* Match top-section */
       overflow: hidden;
-      background-color: rgba(255, 255, 255, .99); /* Translucent white */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 10px 0;
       box-sizing: border-box;
+      position: fixed; /* Fixed at the top */
+      top: 0;
+      left: 0;
+      z-index: 1000;
     }
     .nav a {
       display: inline-block;
-      color: black;
+      color: #f0f0f0; /* Off-white color */
       font-weight: bold;
       text-align: center;
       padding: 14px 20px;
       text-decoration: none;
       font-size: 17px;
+      position: relative;
+      overflow: hidden;
     }
     .nav a:hover {
-      background-color: #ddd;
-      color: black;
+      color: rgb(56, 182, 255); /* Hover color */
+    }
+    .nav a::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background: rgba(56, 182, 255, 0.3);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      transition: width 0.6s ease, height 0.6s ease;
+    }
+    .nav a:active::after {
+      width: 200px;
+      height: 200px;
+      transition: width 0s ease, height 0s ease;
     }
     .header {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
@@ -51,7 +70,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 40px 0;
-      margin: 20px 40px 40px 40px; /* Margin: 20px from the nav, 40px from sections */
+      margin: 100px 40px 40px 40px; /* Adjusted margin to account for fixed nav */
     }
     .header h1 {
       margin: 0;
@@ -81,8 +100,7 @@
     }
     @media (max-width: 768px) {
       .nav {
-        width: calc(100% - 40px); /* Reduced margin for smaller screens */
-        margin: 0 20px;
+        padding: 10px 0;
       }
       .nav a {
         padding: 10px;
@@ -90,7 +108,7 @@
       }
       .header {
         padding: 20px 0;
-        margin: 20px 20px 30px 20px; /* Adjusted margin for smaller screens */
+        margin: 120px 20px 30px 20px; /* Adjusted margin for smaller screens */
       }
       .main {
         padding: 0 20px 30px 20px;
@@ -183,6 +201,23 @@
 
       sections.forEach(section => {
         observer.observe(section);
+      });
+
+      const navLinks = document.querySelectorAll('.nav a');
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          const ripple = document.createElement('span');
+          ripple.classList.add('ripple');
+          this.appendChild(ripple);
+
+          const rect = this.getBoundingClientRect();
+          ripple.style.left = `${e.clientX - rect.left}px`;
+          ripple.style.top = `${e.clientY - rect.top}px`;
+
+          ripple.addEventListener('animationend', () => {
+            ripple.remove();
+          });
+        });
       });
     });
   </script>
