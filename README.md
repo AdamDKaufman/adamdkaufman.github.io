@@ -18,7 +18,7 @@
     }
     .top-section {
       width: 100%;
-      height: 66.67vh; /* 2/3 of the screen height */
+      height: calc(100vh - 60px); /* 100% viewport height minus nav height */
       background-color: rgba(0, 0, 0, .75); /* Translucent black */
       display: flex;
       flex-direction: column;
@@ -26,8 +26,9 @@
       align-items: center;
       text-align: center;
       color: rgb(56, 182, 255); /* Text color */
-      margin-top: 60px; /* Adjusted margin to prevent overlap with nav */
+      margin-top: 60px; /* Height of nav */
       position: relative;
+      z-index: 1; /* Ensure top-section is above nav */
     }
     .top-section h1 {
       font-size: 2.5rem;
@@ -56,10 +57,8 @@
       text-align: center;
       padding: 10px 0;
       box-sizing: border-box;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 1000; /* Ensure nav is above other content */
+      position: static; /* Static positioning */
+      z-index: 2; /* Ensure nav is above other content */
     }
     .nav a {
       display: inline-block;
@@ -202,9 +201,8 @@
 
       <label for="name">Your Name:</label><br>
       <input type="text" id="name" name="name" required placeholder="Jane Doe"><br><br>
-      <label for="email">Your Email:</label><br>
-      <input type="email" id="email" name="
-      email" required placeholder="JaneDoe@Gmail.com"><br><br>
+      <label for="email">Your Email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required placeholder="JaneDoe@Gmail.com"><br><br>
       <label for="phone">Your Phone Number:</label><br>
       <input type="tel" id="phone" name="phone" required placeholder="123-456-7890"><br><br>
       <label for="message">Send a Message:</label><br>
