@@ -16,14 +16,9 @@
       background-size: cover;
       scroll-behavior: smooth;
     }
-    .top-section {
-      width: 100%;
-      height: 66.67vh; /* 2/3 of the screen height */
-      background-color: rgba(0, 0, 0, .75); /* Translucent black */
-    }
     .nav {
       width: 100%; /* Full width */
-      background-color: rgba(0, 0, 0, .75); /* Match top-section */
+      background-color: rgba(0, 0, 0, .75); /* Translucent black */
       overflow: hidden;
       text-align: center;
       padding: 10px 0;
@@ -60,6 +55,11 @@
       height: 200px;
       transition: width 0s ease, height 0s ease;
     }
+    .top-section {
+      width: 100%;
+      height: 66.67vh; /* 2/3 of the screen height */
+      background-color: rgba(0, 0, 0, .75); /* Translucent black */
+    }
     .header {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
       border-radius: 10px;
@@ -95,9 +95,6 @@
       padding: 10px;
     }
     @media (max-width: 768px) {
-      .nav {
-        padding: 10px 0;
-      }
       .nav a {
         padding: 10px;
         font-size: 15px;
@@ -128,13 +125,13 @@
 </head>
 <body>
 
-<div class="top-section"></div>
-
 <div class="nav">
   <a href="#about">About Me</a>
   <a href="#contact">Contact Information</a>
   <a href="#contactform">Leave a Message</a>
 </div>
+
+<div class="top-section"></div>
 
 <div class="header">
   <img src="photo5.jpg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
