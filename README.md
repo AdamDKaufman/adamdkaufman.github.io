@@ -50,7 +50,7 @@
       margin: 80px 40px 40px 40px; /* Margin: 80px from the nav, 40px from sections */
     }
     .header h1 {
-      margin: 0;
+      margin: 0 0 20px 0; /* Remove bottom margin from h1 elements */
     }
     .main {
       padding: 0 40px 40px 40px;
