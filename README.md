@@ -64,6 +64,7 @@
       opacity: 0.5; /* Initial opacity to be semi-visible */
       transform: translateY(20px);
       transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      box-sizing: border-box; /* Added box-sizing */
     }
     .section.visible {
       opacity: 1;
@@ -78,7 +79,7 @@
     }
     @media (max-width: 768px) {
       .nav {
-        width: 100; 
+        width: 100%; 
         margin: 0; 
       }
       .nav a {
@@ -87,14 +88,14 @@
       }
       .header {
         padding: 20px 0;
-        margin: 80px 20px 30px 20px; /* Adjusted margin for smaller screens */
+        margin: 80px 10px 30px 10px; /* Adjusted margin for smaller screens */
       }
       .main {
-        padding: 0 20px 30px 20px;
+        padding: 0 10px 30px 10px; /* Adjusted padding for smaller screens */
       }
       .section {
         padding: 15px;
-        margin-bottom: 30px; /* Reduced margin for smaller screens */
+        margin-bottom: 20px; /* Reduced margin for smaller screens */
       }
       .header h1 {
         font-size: 24px; /* Smaller font size for the header */
@@ -104,7 +105,7 @@
         margin-bottom: 15px; /* Reduce bottom margin for smaller screens */
       }
       .footer {
-        padding: 10px 20px; /* Adjust footer padding for smaller screens */
+        padding: 10px 10px; /* Adjust footer padding for smaller screens */
       }
     }
   </style>
