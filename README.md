@@ -51,6 +51,8 @@
     }
     .header h1 {
       margin: 0;
+      border-bottom: none; /* Ensure no border-bottom */
+      box-shadow: none;    /* Ensure no box-shadow */
     }
     .main {
       padding: 0 40px 40px 40px;
