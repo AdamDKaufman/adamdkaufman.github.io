@@ -50,7 +50,7 @@
       margin: 80px 40px 40px 40px; /* Margin: 80px from the nav, 40px from sections */
     }
     .header h1 {
-      margin: 0 0 20px 0; /* Remove bottom margin from h1 elements */
+      margin: 0;
     }
     .main {
       padding: 0 40px 40px 40px;
@@ -99,7 +99,6 @@
       }
       .header h1 {
         font-size: 24px; /* Smaller font size for the header */
-        margin: 0 0 10px 0; /* Adjust bottom margin for smaller screens */
       }
       .header img {
         max-width: 80%; /* Adjust image size for smaller screens */
