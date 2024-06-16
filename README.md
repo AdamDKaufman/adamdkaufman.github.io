@@ -99,6 +99,7 @@
       }
       .header h1 {
         font-size: 24px; /* Smaller font size for the header */
+        margin: 0 0 10px 0; /* Adjust bottom margin for smaller screens */
       }
       .header img {
         max-width: 80%; /* Adjust image size for smaller screens */
