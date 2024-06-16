@@ -52,9 +52,6 @@
     .header h1 {
       margin: 0;
     }
-    .header h1:last-of-type {
-      margin-bottom: 0;
-    }
     .main {
       padding: 0 40px 40px 40px;
     }
