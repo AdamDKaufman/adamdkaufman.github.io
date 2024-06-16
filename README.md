@@ -52,7 +52,7 @@
     .header h1 {
       margin: 0;
     }
-   .header h1 + h1 {
+    .header h1:last-of-type {
       margin-bottom: 0;
     }
     .main {
