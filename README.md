@@ -121,7 +121,7 @@
 <div class="header">
   <img src="photo5.jpg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
   <h1>Adam Kaufman, MSEd</h1>
-  <h1>Counselor Under Supervision</h1>
+  <h1>Mental Health Counselor Associate</h1>
 </div>
 
 <div class="main">
