@@ -49,10 +49,9 @@
       padding: 40px 0;
       margin: 80px 40px 40px 40px; /* Margin: 80px from the nav, 40px from sections */
     }
-    .header h1 {
+    .header h1:first-of-type {
       margin: 0;
-      border-bottom: none; /* Ensure no border-bottom */
-      box-shadow: none;    /* Ensure no box-shadow */
+      border-bottom: 2px solid #333; /* Add bottom border */
     }
     .main {
       padding: 0 40px 40px 40px;
