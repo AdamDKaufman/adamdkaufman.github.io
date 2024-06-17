@@ -3,8 +3,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adam Kaufman's Website</title>
-  <link rel="shortcut icon" type="png" href="design1.png">
-  <meta property="og:image" content="design1.png" name="image">
+  <link rel="shortcut icon" type="png" href="design2.png">
+  <meta property="og:image" content="design2.png" name="image">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
   <style>
     html, body {
