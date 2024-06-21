@@ -14,7 +14,7 @@
       font-family: 'Roboto', sans-serif;
       line-height: 1.6;
       color: #333;
-      background: url('Rorshach5.jpeg') no-repeat center center fixed;
+      background: url('RorshachBlue.jpeg') no-repeat center center fixed;
       background-size: cover;
       scroll-behavior: smooth;
     }
