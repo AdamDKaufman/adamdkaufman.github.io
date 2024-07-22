@@ -21,7 +21,7 @@
       font-family: 'Roboto', sans-serif;
       line-height: 1.6;
       color: #333;
-      background: url('ManhattanDarkened.jpg') no-repeat center center fixed;
+      background: url('rainier2.jpg') no-repeat center center fixed;
       background-size: cover;
       scroll-behavior: smooth;
     }
