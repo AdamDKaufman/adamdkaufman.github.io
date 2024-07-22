@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Adam David Kaufman, MSEd - Mental Health Counseling</title>
-  <meta name="description" content="Adam David Kaufman is a mental health counselor associate who works with clients of all ages and all walks of life in New York City." />
+  <meta name="description" content="Adam David Kaufman is a mental health counselor associate who works with clients of all ages and all walks of life in University Place, Washington." />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -136,7 +136,7 @@
 <div class="main">
   <div class="section" id="services">
     <h2>Services Offered</h2>
-    <p>As a passionate mental health counselor with a limited permit to practice psychotherapy in New York, I am committed to supporting your journey toward well-being. I provide mental health counseling services to people from all walks of life and all ages. My therapeutic approach is deeply rooted in psychodynamic theories, helping you uncover how your past experiences and relationships influence your present thoughts, behaviors, and emotions. With extensive experience in addressing a variety of mental health challenges—such as depression, anxiety, stress, trauma, and relationship issues—I am here to provide a safe and understanding environment for you to explore and overcome your difficulties. Let’s work together to create a path towards a healthier and more fulfilling life. Please leave a message below or contact me via phone or email to book your free 15-minute phone consultation to see if we’re a good fit.</p>
+    <p>As a passionate mental health counselor with a limited permit to practice psychotherapy in Washington, I am committed to supporting your journey toward well-being. I provide mental health counseling services to people from all walks of life and all ages. My therapeutic approach is deeply rooted in psychodynamic theories, helping you uncover how your past experiences and relationships influence your present thoughts, behaviors, and emotions. With extensive experience in addressing a variety of mental health challenges—such as depression, anxiety, stress, trauma, and relationship issues—I am here to provide a safe and understanding environment for you to explore and overcome your difficulties. Let’s work together to create a path towards a healthier and more fulfilling life. Please leave a message below or contact me via phone or email to book your free 15-minute phone consultation to see if we’re a good fit.</p>
     <p>Certifications: Pursuing a certificate in psychodynamic psychotherapy from the Training Institute for Mental Health (to be completed by 2027).</p>
   </div>
 
