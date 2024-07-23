@@ -87,6 +87,10 @@
       margin-top: 40px; /* Ensure space between last section and footer */
     }
     @media (max-width: 768px) {
+      html, body {
+        background: url('rainier2small.jpg') no-repeat center center fixed;
+        background-size: cover;
+      }
       .nav {
         width: 100%; 
         margin: 0; 
