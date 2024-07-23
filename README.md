@@ -66,9 +66,9 @@
     }
     .section {
       background-color: rgba(255, 255, 255, .99); /* Translucent white */
-      border-radius: 5px;
+      border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      padding: 20px;
+      padding: 5px;
       margin-bottom: 40px; /* Updated margin to equalize spacing */
       opacity: 0.5; /* Initial opacity to be semi-visible */
       transform: translateY(20px);
