@@ -88,7 +88,7 @@
     }
     @media (max-width: 768px) {
       html, body {
-        background: url('SeattleSkylineRainierPhone.jpg') no-repeat center center fixed;
+        background: url('rainier3.jpg') no-repeat center center fixed;
         background-size: cover;
       }
       .nav {
