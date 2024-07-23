@@ -88,7 +88,7 @@
     }
     @media (max-width: 768px) {
       html, body {
-        background: url('rainierai-transformed.png') no-repeat center center fixed;
+        background: url('AIRainier3-transformed.jpeg') no-repeat center center fixed;
         background-size: cover;
       }
       .nav {
