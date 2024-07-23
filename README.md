@@ -56,7 +56,7 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       padding: 40px 0;
-      margin: 80px 20px 40px 20px; /* Margin: 80px from the nav, 40px from sections */
+      margin: 80px 40px 40px 40px; /* Margin: 80px from the nav, 40px from sections */
     }
     .header h1 {
       margin: 0;
