@@ -88,7 +88,7 @@
     }
     @media (max-width: 768px) {
       html, body {
-        background: url('AIRainier2.png') no-repeat center center fixed;
+        background: url('AIRainierAdobe2.jpg') no-repeat center center fixed;
         background-size: cover;
       }
       .nav {
