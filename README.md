@@ -88,7 +88,7 @@
     }
     @media (max-width: 768px) {
       html, body {
-        background: url('Tacomamtrainier.jpg') no-repeat center center fixed;
+        background: url('Seattlewarm.jpg') no-repeat center center fixed;
         background-size: cover;
       }
       .nav {
