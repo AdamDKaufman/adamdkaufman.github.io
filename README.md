@@ -2,8 +2,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adam David Kaufman, MSEd - Mental Health Counseling</title>
-  <meta name="description" content="Adam David Kaufman is a mental health counselor associate who works with clients of all ages and all walks of life in University Place, Washington." />
+  <title>Adam David Kaufman, MSEd, LMHCA - Mental Health Counseling</title>
+  <meta name="description" content="Adam David Kaufman is a licensed mental health counselor associate who works with clients of all ages and all walks of life in University Place, Washington." />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -128,20 +128,20 @@
 <div class="nav">
   <a href="#services">Services</a>
   <a href="#contact">Contact Information</a>
-  <a href="#contactform">Leave a Message</a>
+  <a href="#contactform">Schedule a Consultation</a>
 </div>
 
 <div class="header">
   <img src="photo5.jpg" alt="Photo" style="width:100%;max-width:300px;margin-bottom:20px;">
   <h1>Adam Kaufman, MSEd</h1>
-  <h1>Mental Health Counselor Associate</h1>
+  <h1>Licensed Mental Health Counselor Associate</h1>
 </div>
 
 <div class="main">
   <div class="section" id="services">
     <h2>Services Offered</h2>
-    <p>As a passionate mental health counselor with a limited permit to practice psychotherapy in Washington State, I am committed to supporting your journey toward well-being. I provide mental health counseling services to people from all walks of life and all ages. My therapeutic approach is deeply rooted in psychodynamic theories, helping you uncover how your past experiences and relationships influence your present thoughts, behaviors, and emotions. With extensive experience in addressing a variety of mental health challenges—such as depression, anxiety, stress, trauma, and relationship issues—I am here to provide a safe and understanding environment for you to explore and overcome your difficulties. Let’s work together to create a path towards a healthier and more fulfilling life. Please leave a message below or contact me via phone or email to book your free 15-minute phone consultation to see if we’re a good fit.</p>
-    <p>Certifications: Pursuing a certificate in psychodynamic psychotherapy from the Training Institute for Mental Health (to be completed by 2027).</p>
+    <p>Adam Kaufman is a Licensed Mental Health Counselor Associate (LMHCA) with a Master of Science in Education (MSEd) in Mental Health Counseling from CUNY Hunter College. His therapeutic approach is deeply rooted in psychodynamic theories, helping you uncover how your past experiences and relationships influence your present thoughts, behaviors, and emotions. With extensive experience in addressing a variety of mental health challenges—such as depression, anxiety, stress, trauma, and relationship issues—Adam is here to provide a safe and understanding environment for you to explore and overcome your difficulties. Therapy with Adam can be described as a journey of collaborative self-exploration and meaning-making. With immense value placed on building relationships with his clients, you will be given the space to share all that comes to your mind. Throughout treatment, clients tend to not only resolve their current conflicts, but discover the life they'd like to lead.</p>
+    <p>Certifications: Adam is currently receiving additional training and supervision in Psychoanalytic Psychotherapy from the Training Institute for Mental Health, an institute based in New York City. In this broad theoretical orientation, the unconscious is explored through various means, with the belief that self-understanding will lead to a fuller and more productive life.</p>
   </div>
 
   <div class="section" id="contact">
@@ -151,7 +151,7 @@
   </div>
 
   <div class="section" id="contactform">
-    <h2>Leave a Message</h2>
+    <h2>Schedule a Consultation</h2>
     <form id="contact-form" method="post" action="https://formspree.io/f/mleqyjkz">
       <p>Please fill out the form below to schedule a free 15-minute phone consultation or to book an appointment. I’ll get back to you within one business day.</p>
       <label for="communication_preference">Preferred Method of Contact:</label>
@@ -173,7 +173,7 @@
   </div>
 
   <div class="footer">
-    <p>Adam Kaufman, MSEd</p>
+    <p>Adam Kaufman, MSEd, LMHCA</p>
   </div>
 
   <script>
