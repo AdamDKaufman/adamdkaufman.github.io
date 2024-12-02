@@ -137,7 +137,7 @@
   <h1>Licensed Mental Health Counselor Associate</h1>
   <p1><!-- Professional verification provided by Psychology Today -->
 <a href="https://www.psychologytoday.com/profile/1422560" class="sx-verified-seal"></a>
-<script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="10" data-id="1422560" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMC9wcm9maWxlLzE0MjI1NjA/Y2FsbGJhY2s9c3hjYWxsYmFjaw=="></script>
+<script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="13" data-id="1422560" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMy9wcm9maWxlLzE0MjI1NjA/Y2FsbGJhY2s9c3hjYWxsYmFjaw=="></script>
 <!-- End Verification --></p1>
 </div>
 
