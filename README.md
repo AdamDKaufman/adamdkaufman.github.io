@@ -25,7 +25,6 @@
       background-size: cover;
       scroll-behavior: smooth;
     }
-    p1 {text-align: center;}
     .nav {
       width: 100%;
       background-color: rgba(0, 0, 0, 0.75); /* Translucent black */
@@ -114,7 +113,6 @@
       .header h1 {
         font-size: 24px; /* Smaller font size for the header */
       }
-      p {text-align: center;}
       .header img {
         max-width: 80%; /* Adjust image size for smaller screens */
         margin-bottom: 15px; /* Reduce bottom margin for smaller screens */
