@@ -170,7 +170,7 @@
       <input type="email" id="email" name="email" required placeholder="JaneDoe@Gmail.com"><br><br>
       <label for="phone">Your Phone Number:</label><br>
       <input type="tel" id="phone" name="phone" required placeholder="123-456-7890"><br><br>
-      <label for="message">Send a Message:</label><br>
+      <label for="message">Include a Message:</label><br>
       <textarea id="message" name="message" rows="5" required placeholder="Your Message Here"></textarea><br><br>
       <button type="submit">Send Message</button>
     </form>
