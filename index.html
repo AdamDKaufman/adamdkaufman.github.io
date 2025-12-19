@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adam Kaufman, MSEd, LMHCA - Professional Mental Health Counseling</title>
+  <meta name="description" content="Licensed mental health counselor in University Place, WA. Expert in depression, anxiety, trauma & relationship issues. Book your free consultation today." />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:image" content="FinalLogo.png" name="image">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #ffffff;
+      overflow-x: hidden;
+    }
+
+    /* Navigation */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      padding: 15px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-logo img {
+      height: 50px;
+      width: auto;
+      display: block;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      color: #4a5568;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 15px;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #1a1a1a;
+    }
+
+    .nav-links a.cta {
+      background: #1a1a1a;
+      color: white;
+      padding: 10px 24px;
+      border-radius: 6px;
+      transition: all 0.3s;
+    }
+
+    .nav-links a.cta:hover {
+      background: #2d3748;
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 100px 60px 60px 60px;
+      background: linear-gradient(135deg, #f7fafc 0%, #e6f0f5 100%);
+    }
+
+    .hero-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .hero-left {
+      opacity: 0;
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    .hero-left h1 {
+      font-size: 64px;
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 30px;
+      color: #1a1a1a;
+      letter-spacing: -2px;
+    }
+
+    .hero-left p {
+      font-size: 20px;
+      color: #4a5568;
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+
+    .hero-credentials {
+      display: flex;
+      gap: 15px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .credential-badge {
+      background: white;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #2c5282;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .hero-right {
+      display: flex;
+      justify-content: center;
+      opacity: 0;
+      animation: fadeInUp 1s ease 0.3s forwards;
+    }
+
+    .hero-right img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    }
+
+    .cta-primary {
+      display: inline-block;
+      background: #1a1a1a;
+      color: white;
+      padding: 18px 40px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      margin-top: 30px;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .cta-primary:hover {
+      background: #2d3748;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Split Section Layout */
+    .split-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 100px 60px;
+    }
+
+    .split-section:nth-child(even) {
+      background: #f7fafc;
+    }
+
+    .split-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 400px 1fr;
+      gap: 120px;
+      align-items: start;
+    }
+
+    .split-left {
+      position: sticky;
+      top: 120px;
+    }
+
+    .split-left h2 {
+      font-size: 56px;
+      font-weight: 900;
+      line-height: 1.1;
+      color: #1a1a1a;
+      letter-spacing: -2px;
+      margin-bottom: 20px;
+    }
+
+    .split-left .subtitle {
+      font-size: 18px;
+      color: #718096;
+      font-weight: 500;
+    }
+
+    .split-right {
+      opacity: 0;
+      transform: translateX(30px);
+      transition: all 0.8s ease;
+    }
+
+    .split-right.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .split-right p {
+      font-size: 18px;
+      line-height: 1.9;
+      color: #2d3748;
+      margin-bottom: 30px;
+    }
+
+    .split-right ul {
+      list-style: none;
+      margin: 30px 0;
+    }
+
+    .split-right li {
+      font-size: 18px;
+      line-height: 1.9;
+      color: #2d3748;
+      margin-bottom: 20px;
+      padding-left: 35px;
+      position: relative;
+    }
+
+    .split-right li:before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: #1a1a1a;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .split-right h3 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 50px 0 25px 0;
+    }
+
+    /* Contact Section */
+    .contact-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 100px 60px;
+      background: #1a1a1a;
+      color: white;
+    }
+
+    .contact-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 400px 1fr;
+      gap: 120px;
+      align-items: start;
+    }
+
+    .contact-left h2 {
+      font-size: 56px;
+      font-weight: 900;
+      line-height: 1.1;
+      color: white;
+      letter-spacing: -2px;
+      margin-bottom: 20px;
+    }
+
+    .contact-left .subtitle {
+      font-size: 18px;
+      color: #a0aec0;
+      font-weight: 500;
+      margin-bottom: 40px;
+    }
+
+    .contact-info-item {
+      margin-bottom: 30px;
+    }
+
+    .contact-info-item h4 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #a0aec0;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .contact-info-item a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .contact-info-item a:hover {
+      color: #63b3ed;
+    }
+
+    .contact-right {
+      opacity: 0;
+      transform: translateX(30px);
+      transition: all 0.8s ease;
+    }
+
+    .contact-right.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .form-intro {
+      font-size: 18px;
+      color: #e2e8f0;
+      margin-bottom: 40px;
+      line-height: 1.8;
+    }
+
+    form label {
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #e2e8f0;
+    }
+
+    form input,
+    form select,
+    form textarea {
+      width: 100%;
+      padding: 16px 20px;
+      margin-bottom: 30px;
+      border: 2px solid #2d3748;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: 'Inter', sans-serif;
+      background: #2d3748;
+      color: white;
+      transition: all 0.3s;
+    }
+
+    form input:focus,
+    form select:focus,
+    form textarea:focus {
+      outline: none;
+      border-color: #63b3ed;
+      background: #374151;
+    }
+
+    form textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+
+    form button {
+      width: 100%;
+      background: white;
+      color: #1a1a1a;
+      padding: 18px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    form button:hover {
+      background: #e2e8f0;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Footer */
+    .footer {
+      background: #0a0a0a;
+      color: #a0aec0;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 14px;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .nav {
+        padding: 20px 30px;
+      }
+
+      .hero,
+      .split-section,
+      .contact-section {
+        padding: 80px 30px;
+      }
+
+      .hero-container,
+      .split-container,
+      .contact-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+      }
+
+      .split-left {
+        position: static;
+      }
+
+      .hero-left h1,
+      .split-left h2,
+      .contact-left h2 {
+        font-size: 42px;
+      }
+
+      .nav-links {
+        gap: 20px;
+      }
+
+      .nav-links a {
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        padding: 12px 20px;
+      }
+
+      .nav-logo img {
+        height: 40px;
+      }
+
+      .nav-links {
+        gap: 15px;
+      }
+
+      .nav-links a {
+        font-size: 13px;
+      }
+
+      .nav-links a.cta {
+        padding: 8px 16px;
+        font-size: 13px;
+      }
+
+      .hero-left h1,
+      .split-left h2,
+      .contact-left h2 {
+        font-size: 36px;
+      }
+
+      .hero-left p,
+      .split-right p,
+      .split-right li {
+        font-size: 16px;
+      }
+
+      .hero,
+      .split-section,
+      .contact-section {
+        padding: 80px 20px 60px 20px;
+      }
+
+      .hero-container,
+      .split-container,
+      .contact-container {
+        gap: 40px;
+      }
+
+      .hero-right img {
+        max-width: 300px;
+      }
+
+      .split-left h2,
+      .contact-left h2 {
+        margin-bottom: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="nav-logo">
+    <img src="FinalLogo.png" alt="Adam Kaufman Logo">
+  </div>
+  <div class="nav-links">
+    <a href="#welcome">Overview</a>
+    <a href="#expertise">Expertise</a>
+    <a href="#contact" class="cta">Book Consultation</a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-left">
+      <h1>Professional Mental Health Counseling</h1>
+      <p>Licensed Mental Health Counselor Associate helping you navigate life's challenges with evidence-based therapy.</p>
+      <p><strong>Adam Kaufman, MSEd, LMHCA</strong></p>
+      <div class="hero-credentials">
+        <span class="credential-badge">CUNY Hunter College MSEd</span>
+        <span class="credential-badge">TEAM-CBT Certified</span>
+        <span class="credential-badge">Psychodynamic Training</span>
+      </div>
+      <a href="#contact" class="cta-primary">Schedule Free Consultation</a>
+      <div style="margin-top: 30px;">
+        <!-- Professional verification provided by Psychology Today -->
+        <a href="https://www.psychologytoday.com/profile/1422560" class="sx-verified-seal"></a>
+        <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="13" data-id="1422560" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMy9wcm9maWxlLzE0MjI1NjA/Y2FsbGJhY2s9c3hjYWxsYmFjaw=="></script>
+        <!-- End Verification -->
+      </div>
+    </div>
+    <div class="hero-right">
+      <img src="photo5.jpg" alt="Adam Kaufman, Licensed Mental Health Counselor">
+    </div>
+  </div>
+</section>
+
+<!-- Welcome Section -->
+<section class="split-section" id="welcome">
+  <div class="split-container">
+    <div class="split-left">
+      <h2>Welcome</h2>
+      <p class="subtitle">Currently Accepting New Clients</p>
+    </div>
+    <div class="split-right">
+      <p>As a Licensed Mental Health Counselor Associate with specialized training in both psychodynamic therapy and TEAM-CBT, I offer a unique therapeutic approach that adapts to your individual needs.</p>
+
+      <p>My approach combines deep self-exploration with practical, results-focused interventions. You'll gain both insight into your patterns and concrete skills to create meaningful change.</p>
+
+      <p>Therapy with me is a collaborative journey of self-exploration and meaning-making. I create a safe, supportive environment where you can share openly, resolve current conflicts, and discover the life you want to lead.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Areas of Expertise Section -->
+<section class="split-section" id="expertise">
+  <div class="split-container">
+    <div class="split-left">
+      <h2>Areas of Expertise</h2>
+      <p class="subtitle">Specialized Mental Health Support</p>
+    </div>
+    <div class="split-right">
+      <h3>I specialize in helping with:</h3>
+      <ul>
+        <li>Depression and persistent low mood</li>
+        <li>Anxiety and stress management</li>
+        <li>Trauma and PTSD</li>
+        <li>Relationship challenges</li>
+        <li>Life transitions and identity exploration</li>
+        <li>Self-understanding and personal growth</li>
+      </ul>
+
+      <h3>Professional Training & Certifications</h3>
+      <ul>
+        <li><strong>Master of Science in Education (MSEd)</strong> in Mental Health Counseling from CUNY Hunter College</li>
+        <li><strong>Two years of intensive training</strong> in Psychoanalytic Psychotherapy at the Training Institute for Mental Health (NYC)</li>
+        <li><strong>TEAM-CBT Certified</strong> (pursuing advanced certification) — an evidence-based, integrative adaptation of cognitive behavioral therapy</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+    <div class="contact-left">
+      <h2>Get in Touch</h2>
+      <p class="subtitle">Schedule Your Free 15-Minute Consultation</p>
+
+      <div class="contact-info-item">
+        <h4>Email</h4>
+        <a href="mailto:AdamDKaufmanTherapy@Gmail.com">AdamDKaufmanTherapy@Gmail.com</a>
+      </div>
+
+      <div class="contact-info-item">
+        <h4>Phone</h4>
+        <a href="tel:360-296-0308">360-296-0308</a>
+      </div>
+    </div>
+    <div class="contact-right">
+      <p class="form-intro">Take the first step toward positive change. Fill out the form below and I'll get back to you within one business day to schedule your free consultation.</p>
+
+      <form id="contact-form" method="post" action="https://formspree.io/f/mleqyjkz">
+        <label for="communication_preference">Preferred Contact Method</label>
+        <select id="communication_preference" name="communication_preference" required>
+          <option value="">Select one...</option>
+          <option value="email">Email</option>
+          <option value="phone">Phone</option>
+        </select>
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required placeholder="(123) 456-7890">
+
+        <label for="message">How can I help you?</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Tell me a bit about what brings you to therapy..."></textarea>
+
+        <button type="submit">Request Free Consultation</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2024 Adam Kaufman, MSEd, LMHCA | Licensed Mental Health Counselor Associate | University Place, Washington</p>
+</footer>
+
+<script>
+  // Fade-in animation on scroll
+  const observerOptions = {
+    threshold: 0.2,
+    rootMargin: '0px 0px -100px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.split-right, .contact-right').forEach(el => {
+    observer.observe(el);
+  });
+</script>
+
+</body>
+</html>
