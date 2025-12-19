@@ -101,16 +101,34 @@
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "top photo"
+        "bottom photo";
       gap: 80px;
       align-items: center;
     }
 
-    .hero-left {
+    .hero-top {
+      grid-area: top;
       opacity: 0;
       animation: fadeInUp 1s ease forwards;
     }
 
-    .hero-left h1 {
+    .hero-photo {
+      grid-area: photo;
+      display: flex;
+      justify-content: center;
+      opacity: 0;
+      animation: fadeInUp 1s ease 0.3s forwards;
+    }
+
+    .hero-bottom {
+      grid-area: bottom;
+      opacity: 0;
+      animation: fadeInUp 1s ease 0.2s forwards;
+    }
+
+    .hero-top h1 {
       font-size: 64px;
       font-weight: 900;
       line-height: 1.1;
@@ -119,7 +137,7 @@
       letter-spacing: -2px;
     }
 
-    .hero-left p {
+    .hero-top p {
       font-size: 20px;
       color: #4a5568;
       margin-bottom: 20px;
@@ -143,14 +161,7 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     }
 
-    .hero-right {
-      display: flex;
-      justify-content: center;
-      opacity: 0;
-      animation: fadeInUp 1s ease 0.3s forwards;
-    }
-
-    .hero-right img {
+    .hero-photo img {
       width: 100%;
       max-width: 400px;
       border-radius: 20px;
@@ -438,7 +449,15 @@
         padding: 80px 30px;
       }
 
-      .hero-container,
+      .hero-container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "top"
+          "photo"
+          "bottom";
+        gap: 30px;
+      }
+
       .split-container,
       .contact-container {
         grid-template-columns: 1fr;
@@ -449,7 +468,7 @@
         position: static;
       }
 
-      .hero-left h1,
+      .hero-top h1,
       .split-left h2,
       .contact-left h2 {
         font-size: 42px;
@@ -486,13 +505,13 @@
         font-size: 13px;
       }
 
-      .hero-left h1,
+      .hero-top h1,
       .split-left h2,
       .contact-left h2 {
         font-size: 36px;
       }
 
-      .hero-left p,
+      .hero-top p,
       .split-right p,
       .split-right li {
         font-size: 16px;
@@ -507,16 +526,23 @@
       .hero-container,
       .split-container,
       .contact-container {
-        gap: 40px;
+        gap: 30px;
       }
 
-      .hero-right img {
+      .hero-photo img {
         max-width: 300px;
       }
 
       .split-left h2,
       .contact-left h2 {
         margin-bottom: 30px;
+      }
+
+      /* Make fade-in instant on mobile */
+      .split-right,
+      .contact-right {
+        opacity: 1 !important;
+        transform: translateX(0) !important;
       }
     }
   </style>
@@ -538,10 +564,15 @@
 <!-- Hero Section -->
 <section class="hero">
   <div class="hero-container">
-    <div class="hero-left">
+    <div class="hero-top">
       <h1>Professional Mental Health Counseling</h1>
       <p>Licensed Mental Health Counselor Associate helping you navigate life's challenges with evidence-based therapy.</p>
       <p><strong>Adam Kaufman, MSEd, LMHCA</strong></p>
+    </div>
+    <div class="hero-photo">
+      <img src="photo5.jpg" alt="Adam Kaufman, Licensed Mental Health Counselor">
+    </div>
+    <div class="hero-bottom">
       <div class="hero-credentials">
         <span class="credential-badge">CUNY Hunter College MSEd</span>
         <span class="credential-badge">TEAM-CBT Certified</span>
@@ -554,9 +585,6 @@
         <script type="text/javascript" src="https://member.psychologytoday.com/verified-seal.js" data-badge="13" data-id="1422560" data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy8xMy9wcm9maWxlLzE0MjI1NjA/Y2FsbGJhY2s9c3hjYWxsYmFjaw=="></script>
         <!-- End Verification -->
       </div>
-    </div>
-    <div class="hero-right">
-      <img src="photo5.jpg" alt="Adam Kaufman, Licensed Mental Health Counselor">
     </div>
   </div>
 </section>
